@@ -3,7 +3,6 @@
     min-height: 320px; // 417px;
     opacity: 0;
     transition: opacity 300ms ease-in-out;
-    border: 1px solid crimson;
   }
   &.b-image--leading-active {
     opacity: 1;
