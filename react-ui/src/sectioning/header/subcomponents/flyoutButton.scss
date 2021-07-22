@@ -1,0 +1,31 @@
+.flyout-button {
+  background-color: transparent;
+  border: none;
+
+  .flyout-button__stripe {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: block;
+    height: 2px;
+    transform: rotate(0deg) translateX(0, 0);
+    transition: all 200ms ease-in-out;
+    width: 28px;
+  }
+  .flyout-button__stripe:nth-of-type(2) {
+    margin: 6px 0;
+  }
+
+  &.flyout-button--active {
+    .flyout-button__stripe {
+      background-color: rgba(0, 0, 0, 0.7);
+      &:first-of-type {
+        transform: rotate(45deg) translate(6px, 6px);
+      }
+      &:nth-of-type(2) {
+        opacity: 0;
+      }
+      &:last-of-type {
+        transform: rotate(-45deg) translate(6px, -6px);
+      }
+    }
+  }
+}
