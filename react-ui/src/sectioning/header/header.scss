@@ -1,0 +1,22 @@
+header {
+  background-color: #3d5a80;
+  color: #fff;
+  height: 60px;
+  padding: 10px 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav-icon {
+  height: auto;
+  opacity: 1;
+  overflow: auto;
+  transition: 600ms all ease-in-out;
+  &.nav-icon--hide {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+  }
+}

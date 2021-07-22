@@ -1,0 +1,102 @@
+[
+  {
+    "announcementEndDate": "28 Jun 2021 20:00:00 GMT-0400",
+    "announcementStartDate": "14 Jun 2021 00:00:01 GMT-0400",
+    "contact": [
+      {
+        "name": "Anna Anderson",
+        "phone": "555-1212"
+      },
+      {
+        "name": "Billy Branson",
+        "phone": "555-1213"
+      }
+    ],
+    "description": "Join us in the park for time with friends, family, and good food.",
+    "eventEndDate": "24 Jul 2021 20:00:00 GMT-0400",
+    "eventStartDate": "24 Jul 2021 17:30:00 GMT-0400",
+    "isPriority": true,
+    "location": {
+      "address": "123 Main Street",
+      "name": "Springfield Rotary Club"
+    },
+    "posterURL": "/picnic.pdf",
+    "title": "You shouldn't see this event",
+    "type": "ward"
+  },
+  {
+    "announcementEndDate": "24 Jul 2021 20:00:00 GMT-0400",
+    "announcementStartDate": "01 Jul 2021 00:00:01 GMT-0400",
+    "contact": [
+      {
+        "name": "Anna Anderson",
+        "phone": "555-1212"
+      },
+      {
+        "name": "Billy Branson",
+        "phone": "555-1213"
+      }
+    ],
+    "description": "Join us in the park for time with friends, family, and good food.",
+    "eventEndDate": "24 Jul 2021 20:00:00 GMT-0400",
+    "eventStartDate": "24 Jul 2021 17:30:00 GMT-0400",
+    "isPriority": true,
+    "location": {
+      "address": "123 Main Street",
+      "name": "Springfield Rotary Club"
+    },
+    "posterURL": "/picnic.pdf",
+    "title": "Picnic",
+    "type": "ward"
+  },
+  {
+    "announcementEndDate": "08 Aug 2021 14:00:00 GMT-0400",
+    "announcementStartDate": "11 Jul 2021 00:00:01 GMT-0400",
+    "contact": [
+      {
+        "name": "Anna Anderson",
+        "phone": "555-1212"
+      },
+      {
+        "name": "Billy Branson",
+        "phone": "555-1213"
+      }
+    ],
+    "description": "Join us in the park for time with friends, family, and good food.",
+    "eventEndDate": "08 Aug 2021 14:00:00 GMT-0400",
+    "eventStartDate": "08 Aug 2021 12:00:00 GMT-0400",
+    "isPriority": true,
+    "location": {
+      "address": "123 Main Street",
+      "name": "Springfield Rotary Club"
+    },
+    "posterURL": "/picnic.pdf",
+    "title": "Another Picnic",
+    "type": "ward"
+  },
+  {
+    "announcementEndDate": "22 Aug 2021 14:00:00 GMT-0400",
+    "announcementStartDate": "14 Jul 2021 00:00:01 GMT-0400",
+    "contact": [
+      {
+        "name": "Anna Anderson",
+        "phone": "555-1212"
+      },
+      {
+        "name": "Billy Branson",
+        "phone": "555-1213"
+      }
+    ],
+    "description": "Join us in the park for time with friends, family, and good food.",
+    "eventEndDate": "22 Aug 2021 14:00:00 GMT-0400",
+    "eventStartDate": "21 Aug 2021 18:00:00 GMT-0400",
+    "isPriority": true,
+    "location": {
+      "address": "123 Main Street",
+      "name": "Springfield Rotary Club"
+    },
+    "posterURL": "/picnic.pdf",
+    "title": "Two-day meeting",
+    "type": "ward"
+  }
+]
