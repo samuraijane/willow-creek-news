@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const session = require('express-session');
 const hymns = require("./mocks/hymns.json");
+const path = require('path');
 
 const app = express();
 
@@ -14,8 +15,7 @@ app.use(session({
 }));
 
 app.use(express.json());
-app.use('/css', express.static(__dirname + "/css"));
-app.use('/js', express.static(__dirname + "/js"));
+app.use(express.static(path.resolve(__dirname + '/react-ui/build')));
 
 app.get('/heartbeat', (req, res) => {
   res.json({
@@ -35,6 +35,11 @@ app.get('/hymns', (req, res) => {
     found = hymns;
   }
   res.json(found);
+});
+
+// catch-all so react can handle routing
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './react-ui/build', 'index.html'));
 });
 
 
