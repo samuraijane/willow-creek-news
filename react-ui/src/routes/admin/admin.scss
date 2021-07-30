@@ -1,0 +1,12 @@
+.agenda-block {
+  > li {
+    border-bottom: 1px solid #555;
+    margin-bottom: 60px;
+  }
+  .agenda-block__subsection {
+    margin: 20px 0;
+  }
+  p + p {
+    margin: 0;
+  }
+}

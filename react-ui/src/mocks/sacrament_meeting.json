@@ -1,0 +1,324 @@
+[
+  {
+    "admin": {
+      "conducting": "Matthew Day",
+      "presiding": "Bishop Matthew Rose"
+    },
+    "date": "1 Aug 2021 12:00:00 GMT-0400",
+    "holiday": {
+      "name": null,
+      "isRecognizedHoliday": false
+    },
+    "music": {
+      "hymn": {
+        "closing": {
+          "number": 142,
+          "title": "Sweet Hour of Prayer"
+        },
+        "intermediate": null,
+        "opening": {
+          "number": 137,
+          "title": "Testimony"
+        },
+        "sacrament": {
+          "number": 182,
+          "title": "We'll sing all hail"
+        }
+      },
+      "music_director": "Susie Carson",
+      "musical_number": null,
+      "organist": "Susan Prestwich"
+    },
+    "prayer": {
+      "closing_prayer": "",
+      "opening_prayer": ""
+    },
+    "speakers": null,
+    "type": {
+      "isFastSunday": true,
+      "isGeneralConference": false,
+      "isStakeConference": false,
+      "isWardConference": false
+    }
+  },
+  {
+    "admin": {
+      "conducting": "Matthew Day",
+      "presiding": "President Rodney Roberts"
+    },
+    "date": "8 Aug 2021 12:00:00 GMT-0400",
+    "holiday": {
+      "name": null,
+      "isRecognizedHoliday": false
+    },
+    "music": {
+      "hymn": {
+        "closing": {
+          "number": 1,
+          "title": ""
+        },
+        "intermediate": {
+          "number": 1,
+          "title": ""
+        },
+        "opening": {
+          "number": 1,
+          "title": ""
+        },
+        "sacrament": {
+          "number": 1,
+          "title": ""
+        }
+      },
+      "music_director": "Susie Carson",
+      "musical_number": null,
+      "organist": "unknown"
+    },
+    "prayer": {
+      "closing_prayer": "",
+      "opening_prayer": ""
+    },
+    "speakers": [
+      {
+        "name": "",
+        "order": 1,
+        "topic": "Family"
+      },
+      {
+        "name": "",
+        "order": 2,
+        "topic": "Family"
+      },
+      {
+        "name": "",
+        "order": 3,
+        "topic": "Family"
+      }
+    ],
+    "type": {
+      "isFastSunday": false,
+      "isGeneralConference": false,
+      "isStakeConference": false,
+      "isWardConference": true
+    }
+  },
+  {
+    "admin": {
+      "conducting": "Matthew Day",
+      "presiding": "Bishop Matthew Rose"
+    },
+    "date": "15 Aug 2021 12:00:00 GMT-0400",
+    "holiday": {
+      "name": null,
+      "isRecognizedHoliday": false
+    },
+    "music": {
+      "hymn": {
+        "closing": {
+          "number": 30,
+          "title": "Come, come, ye saints"
+        },
+        "intermediate": null,
+        "opening": {
+          "number": 3,
+          "title": "Now let us rejoice"
+        },
+        "sacrament": {
+          "number": 184,
+          "title": "Upon the cross of calvary"
+        }
+      },
+      "music_director": "Susie Carson",
+      "musical_number": null,
+      "organist": "Morgan Garrett"
+    },
+    "prayer": {
+      "closing_prayer": "",
+      "opening_prayer": ""
+    },
+    "speakers": [
+      {
+        "name": "Ellie Lichfield",
+        "order": 1,
+        "topic": "Enduring to the end"
+      },
+      {
+        "name": "Charlie Crose",
+        "order": 2,
+        "topic": "Enduring to the end"
+      },
+      {
+        "name": "Shelby Moss",
+        "order": 3,
+        "topic": "Enduring to the end"
+      }
+    ],
+    "type": {
+      "isFastSunday": false,
+      "isGeneralConference": false,
+      "isStakeConference": false,
+      "isWardConference": false
+    }
+  },
+  {
+    "admin": {
+      "conducting": null,
+      "presiding": null
+    },
+    "date": "22 Aug 2021 12:00:00 GMT-0400",
+    "holiday": {
+      "name": null,
+      "isRecognizedHoliday": false
+    },
+    "music": {
+      "hymns": null,
+      "music_director": null,
+      "musical_number": null,
+      "organist": null
+    },
+    "prayer": {
+      "closing_prayer": "",
+      "opening_prayer": ""
+    },
+    "speakers": null,
+    "type": {
+      "isFastSunday": false,
+      "isGeneralConference": false,
+      "isStakeConference": true,
+      "isWardConference": false
+    }
+  },
+  {
+    "admin": {
+      "conducting": "Matthew Day",
+      "presiding": "Bishop Matthew Rose"
+    },
+    "date": "29 Aug 2021 12:00:00 GMT-0400",
+    "holiday": {
+      "name": null,
+      "isRecognizedHoliday": false
+    },
+    "music": {
+      "hymn": {
+        "closing": {
+          "number": 304,
+          "title": "Teach me to walk in the light"
+        },
+        "intermediate": {
+          "number": 1,
+          "title": ""
+        },
+        "opening": {
+          "number": 125,
+          "title": "How gentle God's commands"
+        },
+        "sacrament": {
+          "number": 177,
+          "title": "'Tis sweet to sing the matchless"
+        }
+      },
+      "music_director": "Susie Carson",
+      "musical_number": null,
+      "organist": "Nancy Jensen"
+    },
+    "prayer": {
+      "closing_prayer": "",
+      "opening_prayer": ""
+    },
+    "speakers": [
+      {
+        "name": "",
+        "order": 1,
+        "topic": "The Restoration"
+      },
+      {
+        "name": "",
+        "order": 2,
+        "topic": "The Restoration"
+      },
+      {
+        "name": "",
+        "order": 3,
+        "topic": "The Restoration"
+      }
+    ],
+    "type": {
+      "isFastSunday": false,
+      "isGeneralConference": false,
+      "isStakeConference": false,
+      "isWardConference": false
+    }
+  },
+  {
+    "admin": null,
+    "date": "5 Sep 2021 12:00:00 GMT-0400",
+    "holiday": {
+      "name": null,
+      "isRecognizedHoliday": false
+    },
+    "music": null,
+    "prayers": null,
+    "speakers": null,
+    "type": {
+      "isFastSunday": false,
+      "isGeneralConference": true,
+      "isStakeConference": false,
+      "isWardConference": false
+    }
+  },
+  {
+    "admin": {
+      "conducting": "Chad Pharo",
+      "presiding": "Bishop Matthew Rose"
+    },
+    "date": "12 Sep 2021 12:00:00 GMT-0400",
+    "holiday": {
+      "name": null,
+      "isRecognizedHoliday": false
+    },
+    "music": {
+      "hymn": {
+        "closing": {
+          "number": 142,
+          "title": "Sweet Hour of Prayer"
+        },
+        "intermediate": null,
+        "opening": {
+          "number": 137,
+          "title": "Testimony"
+        },
+        "sacrament": {
+          "number": 182,
+          "title": "We'll sing all hail"
+        }
+      },
+      "music_director": "Susie Carson",
+      "musical_number": null,
+      "organist": "Susan Prestwich"
+    },
+    "prayer": {
+      "closing_prayer": "",
+      "opening_prayer": ""
+    },
+    "speakers": null,
+    "type": {
+      "isFastSunday": true,
+      "isGeneralConference": false,
+      "isStakeConference": false,
+      "isWardConference": false
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
