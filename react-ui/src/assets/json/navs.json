@@ -3,80 +3,90 @@
     "activeClassName": "navs__active",
     "exact": true,
     "group": "primary",
-    "isActive": true,
     "href": "/announcements",
+    "isActive": true,
+    "isPublic": true,
     "value": "Announcements"
   },
   {
     "activeClassName": "navs__active",
     "exact": true,
     "group": "primary",
-    "isActive": false,
     "href": "/calendars",
+    "isActive": false,
+    "isPublic": true,
     "value": "Calendars"
   },
   {
     "activeClassName": "navs__active",
     "exact": true,
     "group": "secondary",
-    "isActive": true,
     "href": "/contact",
+    "isActive": true,
+    "isPublic": true,
     "value": "Contact"
   },
   {
     "activeClassName": "navs__active",
     "exact": true,
     "group": "primary",
-    "isActive": true,
     "href": "/family-history",
+    "isActive": true,
+    "isPublic": true,
     "value": "Family History"
   },
   {
     "activeClassName": "navs__active",
     "exact": true,
     "group": "secondary",
-    "isActive": true,
     "href": "/mission-statement",
+    "isActive": true,
+    "isPublic": true,
     "value": "Mission Statement"
   },
   {
     "activeClassName": "navs__active",
     "exact": true,
     "group": "primary",
-    "isActive": true,
     "href": "/missionaries",
+    "isActive": true,
+    "isPublic": true,
     "value": "Missionaries"
   },
   {
     "activeClassName": "navs__active",
     "exact": true,
     "group": "primary",
-    "isActive": true,
     "href": "/sacrament-meeting",
+    "isActive": true,
+    "isPublic": true,
     "value": "Sacrament Meeting"
   },
   {
     "activeClassName": "navs__active",
     "exact": true,
     "group": "primary",
-    "isActive": false,
     "href": "/service",
+    "isActive": false,
+    "isPublic": true,
     "value": "Service"
   },
   {
     "activeClassName": "navs__active",
     "exact": true,
     "group": "primary",
-    "isActive": true,
     "href": "/temple",
+    "isActive": true,
+    "isPublic": true,
     "value": "Temple"
   },
   {
     "activeClassName": "navs__active",
     "exact": true,
     "group": "secondary",
-    "isActive": true,
     "href": "/worship-with-us",
+    "isActive": true,
+    "isPublic": true,
     "value": "Worship with us"
   }
 ]
