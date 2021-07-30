@@ -1,25 +1,31 @@
 import { NavLink } from "react-router-dom";
+import data from '../../assets/json/navs.json';
+import './desktopNavigation.scss';
 
 
 const DesktopNavigation = (): JSX.Element => {
+  const primaryNavs = data.filter(x => x.group === "primary" && x.isActive).map((nav, index) => {
+    return (
+      <li key={`${nav.value.toLowerCase()}-${index}`}>
+        <NavLink
+          activeClassName={nav.activeClassName}
+          exact={nav.exact}
+          key={`${nav.value.toLowerCase()}-${index}`}
+          to={nav.href}
+        >
+          {nav.value}
+        </NavLink>
+      </li>
+    );
+  });
+
   return (
     <nav className="nav nav--header y-wrap y-wrap--inner">
       <div className="nav__logo-container">
         <NavLink activeClassName="navs__active" exact={true} to="/">Home</NavLink>
       </div>
-      <p>DESKTOP NAV</p>
-      <ul className="nav__navs">
-        <li>
-          <NavLink activeClassName="navs__active" exact={true} to="/projects">Projects</NavLink>
-          <NavLink activeClassName="navs__active" exact={true} to="/reviews">Reviews</NavLink>
-          <NavLink activeClassName="navs__active" exact={true} to="/faq">FAQ</NavLink>
-          <NavLink activeClassName="navs__active" exact={true} to="/contact">Contact</NavLink>
-          <NavLink activeClassName="navs__active" exact={true} to="/chat">Chat</NavLink>
-        </li>
-        <li>
-          <NavLink activeClassName="navs__active" exact={true} to="/privacy-policy">Privacy Policy</NavLink>
-          <NavLink activeClassName="navs__active" exact={true} to="/credits">Credits</NavLink>
-        </li>
+      <ul className="nav__navs navs__navs--desktop">
+        {primaryNavs}
       </ul>
     </nav>
   );
