@@ -54,45 +54,40 @@
     "music": {
       "hymn": {
         "closing": {
-          "number": 1,
-          "title": ""
+          "number": 6,
+          "title": "Redeemer of Israel"
         },
-        "intermediate": {
-          "number": 1,
-          "title": ""
-        },
+        "intermediate": null,
         "opening": {
-          "number": 1,
-          "title": ""
+          "number": 7,
+          "title": "Israel, Israel, God is Calling"
         },
         "sacrament": {
-          "number": 1,
-          "title": ""
+          "number": 191,
+          "title": "Behold the Great Redeemer Die"
         }
       },
       "music_director": "Susie Carson",
-      "musical_number": null,
-      "organist": "unknown"
+      "musical_number": {
+        "performed_by": "The Garrett Family",
+        "title": "I Need Thee Every Hour"
+      },
+      "organist": "Morgan Garrett"
     },
     "prayer": {
-      "closing_prayer": "",
-      "opening_prayer": ""
+      "closing_prayer": "Larissa Knudsen",
+      "opening_prayer": "Stewart Huntington"
     },
     "speakers": [
       {
-        "name": "",
+        "name": "Bishop Matthew Rose",
         "order": 1,
-        "topic": "Family"
+        "topic": "Gathering of Israel"
       },
       {
-        "name": "",
+        "name": "President Rod Roberts",
         "order": 2,
-        "topic": "Family"
-      },
-      {
-        "name": "",
-        "order": 3,
-        "topic": "Family"
+        "topic": "Gathering of Israel"
       }
     ],
     "type": {
