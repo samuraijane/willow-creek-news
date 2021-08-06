@@ -5,6 +5,29 @@
   }
   .agenda-block__subsection {
     margin: 20px 0;
+
+    p,
+    ul {
+      padding-left: 30px;
+
+      span {
+        color: #222;
+        display: inline-block;
+        font-size: 0.875rem;
+        min-width: 140px;
+        text-transform: uppercase;
+      }
+
+      li {
+        margin: 8px 0;
+      }
+    }
+  }
+  .agenda-block__subsection-header {
+    color: #aaa;
+    display: inline-block;
+    padding: 4px 20px 4px 8px;
+    text-transform: uppercase;
   }
   p + p {
     margin: 0;

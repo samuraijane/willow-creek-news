@@ -7,21 +7,56 @@ const Admin = (): JSX.Element => {
 
   const agendas = data.map((agenda, index) => {
 
-    const { admin, date, holiday, music, prayer, speakers, type } = agenda;
+    const { admin, business, date, holiday, music, prayer, speakers, type } = agenda;
 
     return (
       <li key={`${index}–${simpleRandomInt()}`}>
         <div className="agenda-block__subsection">
-          <h2>Date</h2>
+          <div className="agenda-block__subsection-header">
+            <h2>Date</h2>
+          </div>
           <p>{date ? date : ''}</p>
         </div>
         <div className="agenda-block__subsection">
-          <h2>Admin</h2>
-          <p>{admin && admin.presiding ? `Presiding ${admin.presiding}` : ''}</p>
-          <p>{admin && admin.conducting ? `Conducting: ${admin.conducting}` : ''}</p>
+          <div className="agenda-block__subsection-header">
+            <h2>Admin</h2>
+          </div>
+          <ul>
+            <li><span>Conducting</span>{admin && admin.conducting ? `${admin.conducting}` : ''}</li>
+            <li><span>Presiding</span>{admin && admin.presiding ? `${admin.presiding}` : ''}</li>
+            <li><span>Music Director</span>{music && music.music_director ? `${music.music_director}` : ''}</li>
+            <li><span>Organist</span>{music && music.organist ? `${music.organist}` : ''}</li>
+            <li><span>Stake Business</span>{business && business.isStakeBusiness ? 'yes' : 'no'}</li>
+            <li><span>Ward Business</span>{business && business.isWardBusiness ? 'yes' : 'no'}</li>
+          </ul>
+        </div>
+        {music && music.hymn && (
+          <div className="agenda-block__subsection">
+            <div className="agenda-block__subsection-header">
+              <h2>Music</h2>
+            </div>
+            <ul>
+              <li><span>Opening</span>{music.hymn.opening ? `${music.hymn.opening.number} – ${music.hymn.opening.title}` : '' }</li>
+              <li><span>Sacrament</span>{music.hymn.sacrament ? `${music.hymn.sacrament.number} – ${music.hymn.sacrament.title}` : '' }</li>
+              <li><span>Intermediate</span>{music.hymn.intermediate ? `${music.hymn.intermediate.number} – ${music.hymn.intermediate.title}` : '' }</li>
+              <li><span>Musical Number</span>{music.musical_number ? `${music.musical_number.title} – ${music.musical_number.performed_by}` : '' }</li>
+              <li><span>Closing</span>{music.hymn.closing ? `${music.hymn.closing.number} – ${music.hymn.closing.title}` : '' }</li>
+            </ul>
+          </div>
+        )}
+        <div className="agenda-block__subsection">
+          <div className="agenda-block__subsection-header">
+            <h2>Prayers</h2>
+          </div>
+          <ul>
+            <li><span>Invocation</span>{prayer && prayer.opening_prayer ? `${prayer.opening_prayer}` : ''}</li>
+            <li><span>Benediction</span>{prayer && prayer.closing_prayer ? `${prayer.closing_prayer}` : ''}</li>
+          </ul>
         </div>
         <div className="agenda-block__subsection">
-          <h2>Speakers</h2>
+          <div className="agenda-block__subsection-header">
+            <h2>Speakers (listed in order)</h2>
+          </div>
           <ul>
             {
               speakers && speakers.length > 0 ?
@@ -32,23 +67,6 @@ const Admin = (): JSX.Element => {
                 }) : ''
             }
           </ul>
-        </div>
-        <div className="agenda-block__subsection">
-          <h2>Music Admin</h2>
-          <p>{music && music.music_director ? `Director ${music.music_director}` : ''}</p>
-          <p>{music && music.organist ? `Organist ${music.organist}` : ''}</p>
-        </div>
-        <div className="agenda-block__subsection">
-          <h2>Hymns</h2>
-          <p>{music && music.hymn && music.hymn.opening ? `Opening ${music.hymn.opening.title} (${music.hymn.opening.number})` : ''}</p>
-          <p>{music && music.hymn && music.hymn.sacrament ? `Sacrament ${music.hymn.sacrament.title} (${music.hymn.sacrament.number})` : ''}</p>
-          <p>{music && music.hymn && music.hymn.intermediate ? `Intermediate ${music.hymn.intermediate.title} (${music.hymn.intermediate.number})` : ''}</p>
-          <p>{music && music.hymn && music.hymn.closing ? `Closing ${music.hymn.closing.title} (${music.hymn.closing.number})` : ''}</p>
-        </div>
-        <div className="agenda-block__subsection">
-          <h2>Prayers</h2>
-          <p>{prayer && prayer.opening_prayer ? `Invocation ${prayer.opening_prayer}` : ''}</p>
-          <p>{prayer && prayer.closing_prayer ? `Benediction ${prayer.closing_prayer}` : ''}</p>
         </div>
       </li>
     );

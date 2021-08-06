@@ -4,6 +4,10 @@
       "conducting": "Matthew Day",
       "presiding": "Bishop Matthew Rose"
     },
+    "business": {
+      "isStakeBusiness": true,
+      "isWardBusiness": false
+    },
     "date": "1 Aug 2021 12:00:00 GMT-0400",
     "holiday": {
       "name": null,
@@ -45,6 +49,10 @@
     "admin": {
       "conducting": "Matthew Day",
       "presiding": "President Rodney Roberts"
+    },
+    "business": {
+      "isStakeBusiness": true,
+      "isWardBusiness": true
     },
     "date": "8 Aug 2021 12:00:00 GMT-0400",
     "holiday": {
@@ -101,6 +109,10 @@
     "admin": {
       "conducting": "Matthew Day",
       "presiding": "Bishop Matthew Rose"
+    },
+    "business": {
+      "isStakeBusiness": null,
+      "isWardBusiness": null
     },
     "date": "15 Aug 2021 12:00:00 GMT-0400",
     "holiday": {
@@ -159,6 +171,10 @@
     "admin": {
       "conducting": null,
       "presiding": null
+    },
+    "business": {
+      "isStakeBusiness": null,
+      "isWardBusiness": null
     },
     "date": "22 Aug 2021 12:00:00 GMT-0400",
     "holiday": {
@@ -246,6 +262,10 @@
   },
   {
     "admin": null,
+    "business": {
+      "isStakeBusiness": null,
+      "isWardBusiness": null
+    },
     "date": "5 Sep 2021 12:00:00 GMT-0400",
     "holiday": {
       "name": null,
@@ -265,6 +285,10 @@
     "admin": {
       "conducting": "Chad Pharo",
       "presiding": "Bishop Matthew Rose"
+    },
+    "business": {
+      "isStakeBusiness": null,
+      "isWardBusiness": null
     },
     "date": "12 Sep 2021 12:00:00 GMT-0400",
     "holiday": {
