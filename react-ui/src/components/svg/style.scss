@@ -8,6 +8,16 @@
   }
 }
 
+.svg__login {
+  width: 100px;
+
+  /* TODO make DRY */
+  svg {
+    height: auto;
+    width: 100%;
+  }
+}
+
 .svg__center {
   text-align: center;
 }
