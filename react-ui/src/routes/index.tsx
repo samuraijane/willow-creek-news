@@ -8,6 +8,7 @@ import Login from './login/login';
 import Landing from "./landing/landing";
 import MissionStatement from "./mission-statement/missionStatement";
 import Missionaries from "./missionaries/missionaries";
+import Profile from "./profile/profile";
 import SacramentMeeting from "./sacrament-meeting/sacramentMeeting";
 import Service from "./service/service";
 import Temple from "./temple/temple";
@@ -61,6 +62,10 @@ const Routes = (): JSX.Element => {
         exact={true}
         path="/missionaries"
         render={() => <Missionaries />}
+      />
+      <Route
+        path="/profile"
+        render={() => <Profile />}
       />
       <Route
         exact={true}

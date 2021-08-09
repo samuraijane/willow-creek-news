@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const session = require('express-session');
 const hymns = require("./mocks/hymns.json");
+const passport = require('passport');
 const path = require('path');
 
 const app = express();
@@ -15,7 +16,11 @@ app.use(session({
 }));
 
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }))
 app.use(express.static(path.resolve(__dirname + '/react-ui/build')));
+
+app.use(passport.initialize());
+app.use(passport.session())
 
 app.get('/heartbeat', (req, res) => {
   res.json({
@@ -36,6 +41,10 @@ app.get('/hymns', (req, res) => {
   }
   res.json(found);
 });
+
+// routes
+const { auth } = require('./routes');
+app.use('/auth', auth);
 
 // catch-all so react can handle routing
 app.get('*', (req, res) => {
