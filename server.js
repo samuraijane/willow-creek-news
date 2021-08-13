@@ -1,9 +1,11 @@
 require('dotenv').config();
+const ensureAuthenticated = require('./middleware/ensureAuthenticated');
 const express = require('express');
 const session = require('express-session');
-const hymns = require("./mocks/hymns.json");
+const hymns = require('./mocks/hymns.json');
 const passport = require('passport');
 const path = require('path');
+const sacramentMeeting = require('./mocks/sacrament_meeting.json');
 
 const app = express();
 
@@ -41,6 +43,10 @@ app.get('/hymns', (req, res) => {
   }
   res.json(found);
 });
+
+app.get('/api/sacrament_meeting', ensureAuthenticated, (req, res) => {
+  res.json(sacramentMeeting);
+})
 
 // routes
 const { auth } = require('./routes');

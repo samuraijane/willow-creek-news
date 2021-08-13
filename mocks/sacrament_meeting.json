@@ -1,0 +1,343 @@
+[
+  {
+    "admin": {
+      "conducting": "Matthew Day",
+      "presiding": "Bishop Matthew Rose"
+    },
+    "business": {
+      "isStakeBusiness": true,
+      "isWardBusiness": false
+    },
+    "date": "1 Aug 2021 12:00:00 GMT-0400",
+    "holiday": {
+      "name": null,
+      "isRecognizedHoliday": false
+    },
+    "music": {
+      "hymn": {
+        "closing": {
+          "number": 142,
+          "title": "Sweet Hour of Prayer"
+        },
+        "intermediate": null,
+        "opening": {
+          "number": 137,
+          "title": "Testimony"
+        },
+        "sacrament": {
+          "number": 182,
+          "title": "We'll Sing All Hail to Jesus' Name"
+        }
+      },
+      "music_director": "Susie Carson",
+      "musical_number": null,
+      "organist": "Susan Prestwich"
+    },
+    "prayer": {
+      "closing_prayer": "",
+      "opening_prayer": ""
+    },
+    "speakers": null,
+    "type": {
+      "isFastSunday": true,
+      "isGeneralConference": false,
+      "isStakeConference": false,
+      "isWardConference": false
+    }
+  },
+  {
+    "admin": {
+      "conducting": "Matthew Day",
+      "presiding": "President Rodney Roberts"
+    },
+    "business": {
+      "isStakeBusiness": true,
+      "isWardBusiness": true
+    },
+    "date": "8 Aug 2021 12:00:00 GMT-0400",
+    "holiday": {
+      "name": null,
+      "isRecognizedHoliday": false
+    },
+    "music": {
+      "hymn": {
+        "closing": {
+          "number": 6,
+          "title": "Redeemer of Israel"
+        },
+        "intermediate": null,
+        "opening": {
+          "number": 7,
+          "title": "Israel, Israel, God is Calling"
+        },
+        "sacrament": {
+          "number": 191,
+          "title": "Behold the Great Redeemer Die"
+        }
+      },
+      "music_director": "Susie Carson",
+      "musical_number": {
+        "performed_by": "The Garrett Family",
+        "title": "I Need Thee Every Hour"
+      },
+      "organist": "Morgan Garrett"
+    },
+    "prayer": {
+      "closing_prayer": "Larissa Knudsen",
+      "opening_prayer": "Stewart Huntington"
+    },
+    "speakers": [
+      {
+        "name": "Bishop Matthew Rose",
+        "order": 1,
+        "topic": "Gathering of Israel"
+      },
+      {
+        "name": "President Rod Roberts",
+        "order": 2,
+        "topic": "Gathering of Israel"
+      }
+    ],
+    "type": {
+      "isFastSunday": false,
+      "isGeneralConference": false,
+      "isStakeConference": false,
+      "isWardConference": true
+    }
+  },
+  {
+    "admin": {
+      "conducting": "Matthew Day",
+      "presiding": "Bishop Matthew Rose"
+    },
+    "business": {
+      "isStakeBusiness": null,
+      "isWardBusiness": null
+    },
+    "date": "15 Aug 2021 12:00:00 GMT-0400",
+    "holiday": {
+      "name": null,
+      "isRecognizedHoliday": false
+    },
+    "music": {
+      "hymn": {
+        "closing": {
+          "number": 30,
+          "title": "Come, come, ye saints"
+        },
+        "intermediate": null,
+        "opening": {
+          "number": 3,
+          "title": "Now let us rejoice"
+        },
+        "sacrament": {
+          "number": 184,
+          "title": "Upon the cross of calvary"
+        }
+      },
+      "music_director": "Susie Carson",
+      "musical_number": null,
+      "organist": "Morgan Garrett"
+    },
+    "prayer": {
+      "closing_prayer": "",
+      "opening_prayer": ""
+    },
+    "speakers": [
+      {
+        "name": "Ellie Lichfield",
+        "order": 1,
+        "topic": "Enduring to the end"
+      },
+      {
+        "name": "Charlie Crose",
+        "order": 2,
+        "topic": "Enduring to the end"
+      },
+      {
+        "name": "Shelby Moss",
+        "order": 3,
+        "topic": "Enduring to the end"
+      }
+    ],
+    "type": {
+      "isFastSunday": false,
+      "isGeneralConference": false,
+      "isStakeConference": false,
+      "isWardConference": false
+    }
+  },
+  {
+    "admin": {
+      "conducting": null,
+      "presiding": null
+    },
+    "business": {
+      "isStakeBusiness": null,
+      "isWardBusiness": null
+    },
+    "date": "22 Aug 2021 12:00:00 GMT-0400",
+    "holiday": {
+      "name": null,
+      "isRecognizedHoliday": false
+    },
+    "music": {
+      "hymns": null,
+      "music_director": null,
+      "musical_number": null,
+      "organist": null
+    },
+    "prayer": {
+      "closing_prayer": "",
+      "opening_prayer": ""
+    },
+    "speakers": null,
+    "type": {
+      "isFastSunday": false,
+      "isGeneralConference": false,
+      "isStakeConference": true,
+      "isWardConference": false
+    }
+  },
+  {
+    "admin": {
+      "conducting": "Matthew Day",
+      "presiding": "Bishop Matthew Rose"
+    },
+    "date": "29 Aug 2021 12:00:00 GMT-0400",
+    "holiday": {
+      "name": null,
+      "isRecognizedHoliday": false
+    },
+    "music": {
+      "hymn": {
+        "closing": {
+          "number": 304,
+          "title": "Teach me to walk in the light"
+        },
+        "intermediate": {
+          "number": 1,
+          "title": ""
+        },
+        "opening": {
+          "number": 125,
+          "title": "How gentle God's commands"
+        },
+        "sacrament": {
+          "number": 177,
+          "title": "'Tis sweet to sing the matchless"
+        }
+      },
+      "music_director": "Susie Carson",
+      "musical_number": null,
+      "organist": "Nancy Jensen"
+    },
+    "prayer": {
+      "closing_prayer": "",
+      "opening_prayer": ""
+    },
+    "speakers": [
+      {
+        "name": "",
+        "order": 1,
+        "topic": "The Restoration"
+      },
+      {
+        "name": "",
+        "order": 2,
+        "topic": "The Restoration"
+      },
+      {
+        "name": "",
+        "order": 3,
+        "topic": "The Restoration"
+      }
+    ],
+    "type": {
+      "isFastSunday": false,
+      "isGeneralConference": false,
+      "isStakeConference": false,
+      "isWardConference": false
+    }
+  },
+  {
+    "admin": null,
+    "business": {
+      "isStakeBusiness": null,
+      "isWardBusiness": null
+    },
+    "date": "5 Sep 2021 12:00:00 GMT-0400",
+    "holiday": {
+      "name": null,
+      "isRecognizedHoliday": false
+    },
+    "music": null,
+    "prayers": null,
+    "speakers": null,
+    "type": {
+      "isFastSunday": false,
+      "isGeneralConference": true,
+      "isStakeConference": false,
+      "isWardConference": false
+    }
+  },
+  {
+    "admin": {
+      "conducting": "Chad Pharo",
+      "presiding": "Bishop Matthew Rose"
+    },
+    "business": {
+      "isStakeBusiness": null,
+      "isWardBusiness": null
+    },
+    "date": "12 Sep 2021 12:00:00 GMT-0400",
+    "holiday": {
+      "name": null,
+      "isRecognizedHoliday": false
+    },
+    "music": {
+      "hymn": {
+        "closing": {
+          "number": 142,
+          "title": "Sweet Hour of Prayer"
+        },
+        "intermediate": null,
+        "opening": {
+          "number": 137,
+          "title": "Testimony"
+        },
+        "sacrament": {
+          "number": 182,
+          "title": "We'll sing all hail"
+        }
+      },
+      "music_director": "Susie Carson",
+      "musical_number": null,
+      "organist": "Susan Prestwich"
+    },
+    "prayer": {
+      "closing_prayer": "",
+      "opening_prayer": ""
+    },
+    "speakers": null,
+    "type": {
+      "isFastSunday": true,
+      "isGeneralConference": false,
+      "isStakeConference": false,
+      "isWardConference": false
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

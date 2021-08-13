@@ -11,7 +11,6 @@ passport.use(new GitHubStrategy({
   clientSecret: process.env.GITHUB_CLIENT_SECRET
 },
 async function(accessToken, refreshToken, profile, cb) {
-  console.log('profile', profile);
   let user = await User.findOrCreate({
     where: {
       avatarURL:        profile.photos[0].value,
@@ -56,7 +55,7 @@ router.get('/github/callback',
 
 router.get('/logout', (req, res) => {
     req.logout()
-    res.redirect("/")
+    res.redirect('/blah')
 });
 
 module.exports = router;
