@@ -21,7 +21,7 @@ const Instagram = (
       <defs>
         <polygon id="path-1" points="0 0 405 0 405 405 0 405"></polygon>
       </defs>
-      <g id="instagram" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="instagram" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <g id="paths" transform="translate(3.000000, 3.000000)">
           <g id="Group-3">
             <mask id="mask-2" fill="white">

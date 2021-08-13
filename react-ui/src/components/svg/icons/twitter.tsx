@@ -18,8 +18,8 @@ const Twitter = (
       viewBox="0 0 410 410"
       {...props}
     >
-      <g id="twitter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="paths" transform="translate(5.000000, 5.000000)" fill-rule="nonzero">
+      <g id="twitter" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+        <g id="paths" transform="translate(5.000000, 5.000000)" fillRule="nonzero">
           <g id="Dark_Blue" fill="#1D9BF0">
             <rect id="Rectangle" x="0" y="0" width="400" height="400"></rect>
           </g>

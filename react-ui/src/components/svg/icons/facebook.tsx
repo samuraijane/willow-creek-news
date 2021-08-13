@@ -21,7 +21,7 @@ const Facebook = (
       <defs>
         <polygon id="path-1" points="0 0 400 0 400 397 0 397"></polygon>
       </defs>
-      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <g id="12.9″-iPad-Pro" transform="translate(-5.000000, -5.000000)">
           <g id="facebook" transform="translate(5.000000, 5.000000)">
             <g id="Group-3">

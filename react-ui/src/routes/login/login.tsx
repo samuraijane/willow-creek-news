@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import SVGImage, { FACEBOOK, GITHUB, GOOGLE, INSTAGRAM, TWITTER } from '../../components/svg';
 import './login.scss';
 
