@@ -19,7 +19,10 @@
           "number": 142,
           "title": "Sweet Hour of Prayer"
         },
-        "intermediate": null,
+        "intermediate": {
+          "number": null,
+          "title": null
+        },
         "opening": {
           "number": 137,
           "title": "Testimony"
@@ -65,7 +68,10 @@
           "number": 6,
           "title": "Redeemer of Israel"
         },
-        "intermediate": null,
+        "intermediate": {
+          "number": null,
+          "title": null
+        },
         "opening": {
           "number": 7,
           "title": "Israel, Israel, God is Calling"
@@ -125,7 +131,10 @@
           "number": 30,
           "title": "Come, come, ye saints"
         },
-        "intermediate": null,
+        "intermediate": {
+          "number": null,
+          "title": null
+        },
         "opening": {
           "number": 3,
           "title": "Now let us rejoice"
@@ -137,7 +146,7 @@
       },
       "music_director": "Susie Carson",
       "musical_number": null,
-      "organist": "Morgan Garrett"
+      "organist": "Nancy Jensen"
     },
     "prayer": {
       "closing_prayer": "",
@@ -145,18 +154,26 @@
     },
     "speakers": [
       {
-        "name": "Ellie Lichfield",
+        "isTestimony": true,
+        "name": "Elder Chance Kortsen",
         "order": 1,
-        "topic": "Enduring to the end"
+        "topic": null
       },
       {
-        "name": "Charlie Crose",
+        "isTestimony": true,
+        "name": "Elder Samuel Hall",
         "order": 2,
-        "topic": "Enduring to the end"
+        "topic": null
+      },
+      {
+        "isTestimony": true,
+        "name": "Kara Prestwich",
+        "order": 3,
+        "topic": null
       },
       {
         "name": "Shelby Moss",
-        "order": 3,
+        "order": 4,
         "topic": "Enduring to the end"
       }
     ],
@@ -202,7 +219,11 @@
   {
     "admin": {
       "conducting": "Matthew Day",
-      "presiding": "Bishop Matthew Rose"
+      "presiding": "Matthew Day"
+    },
+    "business": {
+      "isStakeBusiness": true,
+      "isWardBusiness": null
     },
     "date": "29 Aug 2021 12:00:00 GMT-0400",
     "holiday": {
@@ -212,45 +233,48 @@
     "music": {
       "hymn": {
         "closing": {
-          "number": 304,
-          "title": "Teach me to walk in the light"
+          "number": 13,
+          "title": "An Angel from on High"
         },
         "intermediate": {
-          "number": 1,
-          "title": ""
+          "number": null,
+          "title": null
         },
         "opening": {
-          "number": 125,
-          "title": "How gentle God's commands"
+          "number": 1,
+          "title": "The Morning Breaks"
         },
         "sacrament": {
-          "number": 177,
-          "title": "'Tis sweet to sing the matchless"
+          "number": 188,
+          "title": "Thy Will, O Lord, Be Done"
         }
       },
-      "music_director": "Susie Carson",
+      "music_director": "Jennifer Stephenson",
       "musical_number": null,
-      "organist": "Nancy Jensen"
+      "organist": "Dee Dodson"
     },
     "prayer": {
-      "closing_prayer": "",
-      "opening_prayer": ""
+      "closing_prayer": "Linda Dodson",
+      "opening_prayer": "Brad Stephenson"
     },
     "speakers": [
       {
-        "name": "",
+        "isTestimony": false,
+        "name": "Laina Stephenson",
         "order": 1,
-        "topic": "The Restoration"
+        "topic": "Family"
       },
       {
-        "name": "",
+        "isTestimony": false,
+        "name": "Faith Sampson",
         "order": 2,
-        "topic": "The Restoration"
+        "topic": "Family"
       },
       {
-        "name": "",
+        "isTestimony": false,
+        "name": "Stewart Huntington",
         "order": 3,
-        "topic": "The Restoration"
+        "topic": "Family"
       }
     ],
     "type": {
@@ -261,22 +285,50 @@
     }
   },
   {
-    "admin": null,
+    "admin": {
+      "conducting": "Chad Pharo",
+      "presiding": "Matthew Day"
+    },
     "business": {
-      "isStakeBusiness": null,
-      "isWardBusiness": null
+      "isStakeBusiness": false,
+      "isWardBusiness": true
     },
     "date": "5 Sep 2021 12:00:00 GMT-0400",
     "holiday": {
       "name": null,
       "isRecognizedHoliday": false
     },
-    "music": null,
-    "prayers": null,
+    "music": {
+      "hymn": {
+        "closing": {
+          "number": 87,
+          "title": "God Is Love"
+        },
+        "intermediate": {
+          "number": null,
+          "title": null
+        },
+        "opening": {
+          "number": 82,
+          "title": "For All the Saints"
+        },
+        "sacrament": {
+          "number": 171,
+          "title": "With Humble Heart"
+        }
+      },
+      "music_director": "Susie Carson",
+      "musical_number": null,
+      "organist": "Susan Prestwich"
+    },
+    "prayer": {
+      "closing_prayer": "Nancy York",
+      "opening_prayer": ""
+    },
     "speakers": null,
     "type": {
-      "isFastSunday": false,
-      "isGeneralConference": true,
+      "isFastSunday": true,
+      "isGeneralConference": false,
       "isStakeConference": false,
       "isWardConference": false
     }
@@ -298,46 +350,55 @@
     "music": {
       "hymn": {
         "closing": {
-          "number": 142,
-          "title": "Sweet Hour of Prayer"
+          "number": 78,
+          "title": "God of Our Fathers, Whose Almighty Hand"
         },
-        "intermediate": null,
+        "intermediate": {
+          "number": null,
+          "title": null
+        },
         "opening": {
-          "number": 137,
-          "title": "Testimony"
+          "number": 86,
+          "title": "How Great Thou Art"
         },
         "sacrament": {
-          "number": 182,
-          "title": "We'll sing all hail"
+          "number": 194,
+          "title": "There Is a Green Hill Far Away"
         }
       },
       "music_director": "Susie Carson",
       "musical_number": null,
-      "organist": "Susan Prestwich"
+      "organist": "Morgan Garrett"
     },
     "prayer": {
       "closing_prayer": "",
       "opening_prayer": ""
     },
-    "speakers": null,
+    "speakers": [
+      {
+        "isTestimony": false,
+        "name": "Ellie Lichfield",
+        "order": 1,
+        "topic": "The Living Christ"
+      },
+      {
+        "isTestimony": false,
+        "name": "Lyndsey Crose",
+        "order": 2,
+        "topic": "he Living Christ"
+      },
+      {
+        "isTestimony": false,
+        "name": "Mark Prestwich",
+        "order": 3,
+        "topic": "he Living Christ"
+      }
+    ],
     "type": {
-      "isFastSunday": true,
+      "isFastSunday": false,
       "isGeneralConference": false,
       "isStakeConference": false,
       "isWardConference": false
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
