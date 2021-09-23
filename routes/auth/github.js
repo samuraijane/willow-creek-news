@@ -1,7 +1,7 @@
 const express = require('express');
 const GitHubStrategy = require('passport-github').Strategy;
 const passport = require('passport');
-const { User } = require('../models');
+const { User } = require('../../models');
 
 const router = express.Router();
 
@@ -31,27 +31,14 @@ passport.deserializeUser(function(id, done) {
 });
 
 
-router.get('/github', passport.authenticate('github'));
+router.get('/', passport.authenticate('github'));
 
-router.get('/github/callback', 
+router.get('/callback', 
   passport.authenticate('github', { failureRedirect: '/login' }),
   function(req, res) {
     res.redirect(`/profile/${req.session.passport.user}`);
   }
 );
-
-// router.get('/login', (req, res) => {
-//   res.render('login', {
-//     locals: {
-//       isAuthenticated: req.isAuthenticated()
-//     },
-//     partials: {
-//       footer: 'partials/footer',
-//       head: 'partials/head',
-//       header: 'partials/header'
-//     }
-//   })
-// })
 
 router.get('/logout', (req, res) => {
     req.logout()

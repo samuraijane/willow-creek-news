@@ -9,6 +9,8 @@ const sacramentMeeting = require('./mocks/sacrament_meeting.json');
 
 const app = express();
 
+process.env.HTTPS = true
+
 const { PORT } = process.env;
 
 app.use(session({
@@ -48,9 +50,26 @@ app.get('/api/sacrament_meeting', ensureAuthenticated, (req, res) => {
   res.json(sacramentMeeting);
 })
 
+
 // routes
-const { auth } = require('./routes');
-app.use('/auth', auth);
+const { fbAuth, ghAuth } = require('./routes/auth');
+app.use('/auth/facebook', fbAuth);
+app.use('/auth/github', ghAuth);
+
+
+// check login status
+app.get('/status', (req, res) => {
+  if (req.isAuthenticated()) {
+    console.log('YES');
+    res.json({
+      "isAuthenticated": true
+    })
+  } else {
+    console.log('NO')
+    res.redirect('/login');
+  }
+});
+
 
 // catch-all so react can handle routing
 app.get('*', (req, res) => {

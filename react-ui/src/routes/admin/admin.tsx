@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react';
+
 import data from '../../mocks/sacrament_meeting.json';
 import { simpleRandomInt } from '../../helpers/simpleRandomInt';
 
@@ -5,7 +7,20 @@ import './admin.scss';
 
 const Admin = (): JSX.Element => {
 
-  const agendas = data.map((agenda, index) => {
+  const [isAuth, setIsAuth] = useState(false)
+
+  useEffect(() => {
+    fetch('/status').then(res => res.json()).then(data => {
+      console.log('data', data)
+      if (data.isAuthenticated) {
+        setIsAuth(true)
+      }
+    })
+  }, [])
+
+  const today = Date.now();
+
+  const agendas = data.filter(x => Date.parse(x.date) > today).map((agenda, index) => {
 
     const { admin, business, date, holiday, music, prayer, speakers, type } = agenda;
 
@@ -38,7 +53,7 @@ const Admin = (): JSX.Element => {
             <ul>
               <li><span>Opening</span>{music.hymn.opening ? `${music.hymn.opening.number} – ${music.hymn.opening.title}` : '' }</li>
               <li><span>Sacrament</span>{music.hymn.sacrament ? `${music.hymn.sacrament.number} – ${music.hymn.sacrament.title}` : '' }</li>
-              <li><span>Intermediate</span>{music.hymn.intermediate ? `${music.hymn.intermediate.number} – ${music.hymn.intermediate.title}` : '' }</li>
+              <li><span>Intermediate</span>{music.hymn.intermediate && music.hymn.intermediate.number ? `${music.hymn.intermediate.number} – ${music.hymn.intermediate.title}` : '' }</li>
               <li><span>Musical Number</span>{music.musical_number ? `${music.musical_number.title} – ${music.musical_number.performed_by}` : '' }</li>
               <li><span>Closing</span>{music.hymn.closing ? `${music.hymn.closing.number} – ${music.hymn.closing.title}` : '' }</li>
             </ul>
@@ -64,7 +79,7 @@ const Admin = (): JSX.Element => {
                   return (
                     <li key={`${index}-${simpleRandomInt()}`}>{speaker.name}</li>
                   )
-                }) : ''
+                }) : <li>No speakers – Members of congregation will share testimonies</li>
             }
           </ul>
         </div>
@@ -74,6 +89,7 @@ const Admin = (): JSX.Element => {
 
   return (
     <div className="y-wrap y-wrap--inner">
+      <p>Logged In status {isAuth.toString()}</p>
       <ul className="agenda-block">
         {agendas}
       </ul>
