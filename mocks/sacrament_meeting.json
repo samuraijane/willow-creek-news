@@ -298,13 +298,80 @@
     "music": {
       "hymn": {
         "closing": {
+          "number": 87,
+          "title": "God is Love"
+        },
+        "intermediate": null,
+        "opening": {
+          "number": 82,
+          "title": "For all the Saints"
+        },
+        "sacrament": {
+          "number": 171,
+          "title": "With Humble Heart"
+        }
+      },
+      "music_director": "Susie Carson",
+      "musical_number": null,
+      "organist": "Susan Prestwich"
+    },
+    "prayer": {
+      "closing_prayer": "Nancy York",
+      "opening_prayer": "Annette Zarkou"
+    },
+    "speakers": null,
+    "type": {
+      "isFastSunday": true,
+      "isGeneralConference": false,
+      "isStakeConference": false,
+      "isWardConference": false
+    }
+  },
+  {
+    "admin": null,
+    "business": {
+      "isStakeBusiness": null,
+      "isWardBusiness": null
+    },
+    "date": "5 Sep 2021 12:00:00 GMT-0400",
+    "holiday": {
+      "name": null,
+      "isRecognizedHoliday": false
+    },
+    "music": null,
+    "prayers": null,
+    "speakers": null,
+    "type": {
+      "isFastSunday": false,
+      "isGeneralConference": true,
+      "isStakeConference": false,
+      "isWardConference": false
+    }
+  },
+  {
+    "admin": {
+      "conducting": "Chad Pharo",
+      "presiding": "Bishop Matthew Rose"
+    },
+    "business": {
+      "isStakeBusiness": null,
+      "isWardBusiness": null
+    },
+    "date": "12 Sep 2021 12:00:00 GMT-0400",
+    "holiday": {
+      "name": null,
+      "isRecognizedHoliday": false
+    },
+    "music": {
+      "hymn": {
+        "closing": {
           "number": 142,
           "title": "Sweet Hour of Prayer"
         },
         "intermediate": null,
         "opening": {
-          "number": 137,
-          "title": "Testimony"
+          "number": 86,
+          "title": "How Great Thou Art"
         },
         "sacrament": {
           "number": 182,
@@ -313,15 +380,36 @@
       },
       "music_director": "Susie Carson",
       "musical_number": null,
-      "organist": "Susan Prestwich"
+      "organist": "Dee Dodson"
     },
     "prayer": {
-      "closing_prayer": "",
-      "opening_prayer": ""
+      "closing_prayer": "Will Mack",
+      "opening_prayer": "Garth Hutchings"
     },
-    "speakers": null,
+    "speakers": [
+      {
+        "name": "Ellie Lichfield",
+        "order": 1,
+        "topic": "The First Vision"
+      },
+      {
+        "name": "Sister Brezell",
+        "order": 2,
+        "topic": "No topic – testimony"
+      },
+      {
+        "name": "Elder Liljenquist",
+        "order": 3,
+        "topic": "No topic – testimony"
+      },
+      {
+        "name": "Mark Prestwich",
+        "order": 4,
+        "topic": "Restoration Proclamation"
+      }
+    ],
     "type": {
-      "isFastSunday": true,
+      "isFastSunday": false,
       "isGeneralConference": false,
       "isStakeConference": false,
       "isWardConference": false
