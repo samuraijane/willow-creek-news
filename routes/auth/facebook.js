@@ -8,16 +8,18 @@ const router = express.Router();
 passport.use(new FacebookStrategy({
   callbackURL: process.env.FACEBOOK_CALLBACK_URL,
   clientID: process.env.FACEBOOK_CLIENT_ID,
-  clientSecret: process.env.FACEBOOK_CLIENT_SECRET
+  clientSecret: process.env.FACEBOOK_CLIENT_SECRET,
+  profileFields: ["id", "name", "picture.type(large)"]
 },
 async function(accessToken, refreshToken, profile, cb) {
-  console.log('profile', profile);
-  console.log('accessToken', accessToken);
   let user = await User.findOrCreate({
     where: {
+      // TODO add avatarURL to database – it cannot be added here because the value of the URL changes with each login so adding it here creates duplicate users with each login
+      //avatarURL: profile.photos[0].value,
+      firstName: profile.name.givenName,
+      lastName: profile.name.familyName,
       loginStrategy:    profile.provider,
-      loginStrategyId:  profile.id,
-      token: accessToken
+      loginStrategyId:  profile.id
     }
   });
   cb(null, profile)

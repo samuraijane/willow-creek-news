@@ -60,12 +60,10 @@ app.use('/auth/github', ghAuth);
 // check login status
 app.get('/status', (req, res) => {
   if (req.isAuthenticated()) {
-    console.log('YES');
     res.json({
       "isAuthenticated": true
     })
   } else {
-    console.log('NO')
     res.redirect('/login');
   }
 });

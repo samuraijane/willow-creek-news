@@ -11,7 +11,6 @@ const Admin = (): JSX.Element => {
 
   useEffect(() => {
     fetch('/status').then(res => res.json()).then(data => {
-      console.log('data', data)
       if (data.isAuthenticated) {
         setIsAuth(true)
       }
