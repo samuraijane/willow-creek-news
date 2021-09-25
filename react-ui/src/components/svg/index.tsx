@@ -4,6 +4,7 @@ import Facebook from './icons/facebook';
 import GitHub from './icons/github';
 import Google from './icons/google';
 import Laurels from './icons/laurels';
+import Logo from './icons/logo';
 import Instagram from './icons/instagram';
 import Twitter from './icons/twitter';
 
@@ -20,6 +21,7 @@ export const GITHUB: string = 'github';
 export const GOOGLE: string = 'google';
 export const INSTAGRAM: string = 'instagram';
 export const LAURELS: string = 'laurels';
+export const LOGO: string = 'logo';
 export const TWITTER: string = 'twitter';
 
 const iconMap = {
@@ -29,6 +31,7 @@ const iconMap = {
   [GOOGLE] : (<Google />),
   [INSTAGRAM] : (<Instagram />),
   [LAURELS]: (<Laurels />),
+  [LOGO]: (<Logo />),
   [TWITTER] : (<Twitter />)
 };
 

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import Admin from '../../routes/admin/admin';
+import SVGImage, { LOGO } from '../../components/svg';
 import data from '../../assets/json/navs.json';
 import './desktopNavigation.scss';
 
@@ -35,7 +35,9 @@ const DesktopNavigation = (): JSX.Element => {
   return (
     <nav className="nav nav--header y-wrap y-wrap--inner">
       <div className="nav__logo-container">
-        <NavLink activeClassName="navs__active" exact={true} to="/">Home</NavLink>
+        <NavLink activeClassName="navs__active" exact={true} to="/">
+          <SVGImage className="svg__center" type={LOGO}/>
+        </NavLink>
       </div>
       <ul className="nav__navs navs__navs--desktop">
         {primaryNavs}
