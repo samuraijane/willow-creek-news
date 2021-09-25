@@ -7,16 +7,6 @@ import './admin.scss';
 
 const Admin = (): JSX.Element => {
 
-  const [isAuth, setIsAuth] = useState(false)
-
-  useEffect(() => {
-    fetch('/status').then(res => res.json()).then(data => {
-      if (data.isAuthenticated) {
-        setIsAuth(true)
-      }
-    })
-  }, [])
-
   const today = Date.now();
 
   const agendas = data.filter(x => Date.parse(x.date) > today).map((agenda, index) => {
@@ -88,7 +78,6 @@ const Admin = (): JSX.Element => {
 
   return (
     <div className="y-wrap y-wrap--inner">
-      <p>Logged In status {isAuth.toString()}</p>
       <ul className="agenda-block">
         {agendas}
       </ul>
