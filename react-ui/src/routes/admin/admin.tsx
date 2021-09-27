@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react';
-
 import data from '../../mocks/sacrament_meeting.json';
 import { simpleRandomInt } from '../../helpers/simpleRandomInt';
 
@@ -11,7 +9,8 @@ const Admin = (): JSX.Element => {
 
   const agendas = data.filter(x => Date.parse(x.date) > today).map((agenda, index) => {
 
-    const { admin, business, date, holiday, music, prayer, speakers, type } = agenda;
+    const { admin, business, date, music, prayer, speakers } = agenda;
+    // other fields include holiday, type – removing for now since they are not used.
 
     return (
       <li key={`${index}–${simpleRandomInt()}`}>

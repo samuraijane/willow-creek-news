@@ -37,13 +37,6 @@ const Header = ({ isMobileView }: HeaderProps): JSX.Element => {
           }
           <NavLink
             className={navIconClass}
-            exact={true}
-            to="/"
-          >
-            WCNews
-          </NavLink>
-          <NavLink
-            className={navIconClass}
             to="/login"
           >
             <SVGImage className="svg__default" type={AVATAR} />
