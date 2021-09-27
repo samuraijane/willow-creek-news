@@ -3,7 +3,7 @@ import './templeAndFamilyHistory.scss';
 const TempleAndFamilyHistory = (): JSX.Element => {
   return (
     <div>
-      Temple
+      Temple and Family History
     </div>
   );
 };

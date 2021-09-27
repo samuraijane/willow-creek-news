@@ -3,7 +3,7 @@ import './wardMission.scss';
 const WardMission = (): JSX.Element => {
   return (
     <div>
-      Missionaries
+      Ward Mission
     </div>
   );
 };

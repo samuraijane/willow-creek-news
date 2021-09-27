@@ -2,7 +2,6 @@ import { Route } from "react-router-dom";
 import Admin from "./admin/admin";
 import Calendars from "./calendars/calendars";
 import Contact from "./contact/contact";
-import FamilyHistory from "./family-history/familyHistory";
 import Login from './login/login';
 import Landing from "./landing/landing";
 import MissionStatement from "./mission-statement/missionStatement";
