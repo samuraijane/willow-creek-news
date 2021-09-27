@@ -33,7 +33,7 @@ const DesktopNavigation = (): JSX.Element => {
   });
 
   return (
-    <nav className="nav nav--header y-wrap y-wrap--inner">
+    <>
       <div className="nav__logo-container">
         <NavLink activeClassName="navs__active" exact={true} to="/">
           <SVGImage className="svg__center" type={LOGO}/>
@@ -45,7 +45,7 @@ const DesktopNavigation = (): JSX.Element => {
           <NavLink activeClassName="navs__active" exact={true} to="/admin">Admin</NavLink>
         )}
       </ul>
-    </nav>
+    </>
   );
 };
 

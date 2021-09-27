@@ -27,7 +27,7 @@ const Header = ({ isMobileView }: HeaderProps): JSX.Element => {
   return (
     <header>
       <div className="y-absolute">
-        <div className="y-wrap y-wrap--inner y-align y-align--hv">
+        <nav className="y-wrap y-wrap--inner y-align y-align--hv">
           {isMobileView && (
             <FlyoutButton handleMobileNav={handleMobileNav} isShowMobileNav={isShowMobileNav} />
           )}
@@ -48,7 +48,7 @@ const Header = ({ isMobileView }: HeaderProps): JSX.Element => {
           >
             <SVGImage className="svg__default" type={AVATAR} />
           </NavLink>  
-        </div>
+        </nav>
       </div>
     </header>
   );
