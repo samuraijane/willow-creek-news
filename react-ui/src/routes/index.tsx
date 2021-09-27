@@ -1,6 +1,5 @@
 import { Route } from "react-router-dom";
 import Admin from "./admin/admin";
-import Announcements from "./announcements/announcements";
 import Calendars from "./calendars/calendars";
 import Contact from "./contact/contact";
 import FamilyHistory from "./family-history/familyHistory";
@@ -27,11 +26,6 @@ const Routes = (): JSX.Element => {
         exact={true}
         path="/admin"
         render={() => <Admin />}
-      />
-      <Route
-        exact={true}
-        path="/announcements"
-        render={() => <Announcements />}
       />
       <Route
         exact={true}

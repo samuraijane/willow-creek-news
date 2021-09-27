@@ -3,15 +3,6 @@
     "activeClassName": "navs__active",
     "exact": true,
     "group": "primary",
-    "href": "/announcements",
-    "isActive": true,
-    "isPublic": true,
-    "value": "Announcements"
-  },
-  {
-    "activeClassName": "navs__active",
-    "exact": true,
-    "group": "primary",
     "href": "/calendars",
     "isActive": false,
     "isPublic": true,
