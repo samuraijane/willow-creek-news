@@ -6,11 +6,11 @@ import FamilyHistory from "./family-history/familyHistory";
 import Login from './login/login';
 import Landing from "./landing/landing";
 import MissionStatement from "./mission-statement/missionStatement";
-import Missionaries from "./missionaries/missionaries";
 import Profile from "./profile/profile";
 import SacramentMeeting from "./sacrament-meeting/sacramentMeeting";
 import Service from "./service/service";
-import Temple from "./temple/temple";
+import TempleAndFamilyHistory from "./temple-and-family-history/templeAndFamilyHistory";
+import WardMission from "./ward-mission/wardMission";
 import WorshipWithUs from "./worship-with-us/worshipWithUs";
 
 const Routes = (): JSX.Element => {
@@ -39,11 +39,6 @@ const Routes = (): JSX.Element => {
       />
       <Route
         exact={true}
-        path="/family-history"
-        render={() => <FamilyHistory />}
-      />
-      <Route
-        exact={true}
         path="/login"
         render={() => <Login />}
       />
@@ -51,11 +46,6 @@ const Routes = (): JSX.Element => {
         exact={true}
         path="/mission-statement"
         render={() => <MissionStatement />}
-      />
-      <Route
-        exact={true}
-        path="/missionaries"
-        render={() => <Missionaries />}
       />
       <Route
         path="/profile"
@@ -73,8 +63,13 @@ const Routes = (): JSX.Element => {
       />
       <Route
         exact={true}
-        path="/temple"
-        render={() => <Temple />}
+        path="/temple-and-family-history"
+        render={() => <TempleAndFamilyHistory />}
+      />
+      <Route
+        exact={true}
+        path="/ward-mission"
+        render={() => <WardMission />}
       />
       <Route
         exact={true}

@@ -21,7 +21,7 @@
     "activeClassName": "navs__active",
     "exact": true,
     "group": "primary",
-    "href": "/family-history",
+    "href": "/temple-and-family-history",
     "isActive": true,
     "isPublic": true,
     "value": "Temple and Family History"
@@ -39,7 +39,7 @@
     "activeClassName": "navs__active",
     "exact": true,
     "group": "primary",
-    "href": "/missionaries",
+    "href": "/ward-mission",
     "isActive": true,
     "isPublic": true,
     "value": "Ward Mission"
