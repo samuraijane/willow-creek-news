@@ -24,7 +24,7 @@
     "href": "/family-history",
     "isActive": true,
     "isPublic": true,
-    "value": "Family History"
+    "value": "Temple and Family History"
   },
   {
     "activeClassName": "navs__active",
@@ -42,7 +42,7 @@
     "href": "/missionaries",
     "isActive": true,
     "isPublic": true,
-    "value": "Missionaries"
+    "value": "Ward Mission"
   },
   {
     "activeClassName": "navs__active",
@@ -61,15 +61,6 @@
     "isActive": false,
     "isPublic": true,
     "value": "Service"
-  },
-  {
-    "activeClassName": "navs__active",
-    "exact": true,
-    "group": "primary",
-    "href": "/temple",
-    "isActive": true,
-    "isPublic": true,
-    "value": "Temple"
   },
   {
     "activeClassName": "navs__active",
