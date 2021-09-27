@@ -18,12 +18,12 @@ const Logo = (
       viewBox="0 0 360 360"
       {...props}
     >
-      <g id="iPhone-8" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(30.000000, 102.000000)" fill="#282A91" font-family="OpenSans-SemiBold, Open Sans" font-weight="500">
-          <text id="WILLOW-CREEK" font-size="38">
+      <g id="wcnews-logo" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+        <g id="Group" transform="translate(30.000000, 102.000000)" fill="#282A91" fontFamily="OpenSans-SemiBold, Open Sans" fontWeight="500">
+          <text id="WILLOW-CREEK" fontSize="38">
             <tspan x="10.4736328" y="41">WILLOW CREEK</tspan>
           </text>
-          <text id="NEWS" font-size="104">
+          <text id="NEWS" fontSize="104">
             <tspan x="0.9609375" y="125">NEWS</tspan>
           </text>
         </g>
