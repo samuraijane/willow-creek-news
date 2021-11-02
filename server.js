@@ -56,6 +56,9 @@ const { fbAuth, ghAuth } = require('./routes/auth');
 app.use('/auth/facebook', fbAuth);
 app.use('/auth/github', ghAuth);
 
+const profile = require('./routes/profile');
+app.use('/profile', profile);
+
 
 // check login status
 app.get('/status', (req, res) => {
