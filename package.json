@@ -5,6 +5,11 @@
   "main": "server.js",
   "scripts": {
     "build": "cd react-ui/ && npm install && npm run build",
+    "db:create": "npx sequelize-cli db:create",
+    "db:destroy": "npx sequelize-cli db:drop",
+    "db:migrate": "npx sequelize-cli db:migrate",
+    "db:reset": "npm run db:destroy; npm run db:create && npm run db:migrate && npm run db:seed",
+    "db:seed": "npx sequelize-cli db:seed:all",
     "dev": "nodemon server.js",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"

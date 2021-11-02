@@ -20,7 +20,8 @@ module.exports = (sequelize, DataTypes) => {
     isWardConference: DataTypes.BOOLEAN,
     isStakeConference: DataTypes.BOOLEAN,
     isGeneralConference: DataTypes.BOOLEAN,
-    isNewMeetingTime: DataTypes.BOOLEAN,
+    isPrimaryProgram: DataTypes.BOOLEAN,
+    isMeetingTimeChange: DataTypes.BOOLEAN,
     isDaylightSavingsChange: DataTypes.BOOLEAN
   }, {
     sequelize,

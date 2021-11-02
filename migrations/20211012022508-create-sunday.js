@@ -26,7 +26,10 @@ module.exports = {
       isGeneralConference: {
         type: Sequelize.BOOLEAN
       },
-      isNewMeetingTime: {
+      isPrimaryProgram: {
+        type: Sequelize.BOOLEAN
+      },
+      isMeetingTimeChange: {
         type: Sequelize.BOOLEAN
       },
       isDaylightSavingsChange: {

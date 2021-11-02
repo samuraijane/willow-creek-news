@@ -10,6 +10,11 @@ module.exports = {
       ),
       queryInterface.addColumn(
         'Users',
+        'permissions',
+         Sequelize.STRING
+      ),
+      queryInterface.addColumn(
+        'Users',
         'avatarURL',
          Sequelize.STRING
       ),
@@ -31,6 +36,10 @@ module.exports = {
       queryInterface.removeColumn(
         'Users',
         'username'
+      ),
+      queryInterface.removeColumn(
+        'Users',
+        'permissions'
       ),
       queryInterface.removeColumn(
         'Users',
