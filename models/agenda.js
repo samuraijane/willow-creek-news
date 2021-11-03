@@ -3,7 +3,7 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class Sunday extends Model {
+  class Agenda extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
@@ -13,19 +13,20 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
     }
   };
-  Sunday.init({
+  Agenda.init({
     date: DataTypes.STRING,
-    isFastSunday: DataTypes.BOOLEAN,
     is5thSunday: DataTypes.BOOLEAN,
-    isWardConference: DataTypes.BOOLEAN,
-    isStakeConference: DataTypes.BOOLEAN,
+    isDaylightSavingsChange: DataTypes.BOOLEAN,
+    isFastSunday: DataTypes.BOOLEAN,
     isGeneralConference: DataTypes.BOOLEAN,
-    isPrimaryProgram: DataTypes.BOOLEAN,
     isMeetingTimeChange: DataTypes.BOOLEAN,
-    isDaylightSavingsChange: DataTypes.BOOLEAN
+    isPrimaryProgram: DataTypes.BOOLEAN,
+    isStakeConference: DataTypes.BOOLEAN,
+    isWardConference: DataTypes.BOOLEAN,
+    name: DataTypes.STRING
   }, {
     sequelize,
-    modelName: 'Sunday',
+    modelName: 'Agenda',
   });
-  return Sunday;
+  return Agenda;
 };

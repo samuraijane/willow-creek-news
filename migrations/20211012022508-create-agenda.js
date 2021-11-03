@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('Sundays', {
+    await queryInterface.createTable('Agendas', {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -11,29 +11,32 @@ module.exports = {
       date: {
         type: Sequelize.STRING
       },
-      isFastSunday: {
-        type: Sequelize.BOOLEAN
-      },
       is5thSunday: {
         type: Sequelize.BOOLEAN
       },
-      isWardConference: {
+      isDaylightSavingsChange: {
         type: Sequelize.BOOLEAN
       },
-      isStakeConference: {
+      isFastSunday: {
         type: Sequelize.BOOLEAN
       },
       isGeneralConference: {
         type: Sequelize.BOOLEAN
       },
-      isPrimaryProgram: {
-        type: Sequelize.BOOLEAN
-      },
       isMeetingTimeChange: {
         type: Sequelize.BOOLEAN
       },
-      isDaylightSavingsChange: {
+      isPrimaryProgram: {
         type: Sequelize.BOOLEAN
+      },
+      isStakeConference: {
+        type: Sequelize.BOOLEAN
+      },
+      isWardConference: {
+        type: Sequelize.BOOLEAN
+      },
+      name: {
+        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,
@@ -46,6 +49,6 @@ module.exports = {
     });
   },
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('Sundays');
+    await queryInterface.dropTable('Agendas');
   }
 };
