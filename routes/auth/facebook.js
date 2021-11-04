@@ -19,6 +19,7 @@ async function(accessToken, refreshToken, profile, cb) {
     where: {
       // TODO add avatarURL to database – it cannot be added here because the value of the URL changes with each login so adding it here creates duplicate users with each login
       //avatarURL: profile.photos[0].value,
+      
       firstName: profile.name.givenName,
       lastName: profile.name.familyName,
       loginStrategy:    profile.provider,
