@@ -10,7 +10,20 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      // define association here
+      Agenda.belongsToMany(models.Hymn, {
+        as: 'hymns',
+        foreignKey: {
+          name: 'agendaId',
+          allowNull: false
+        },
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE',
+        otherKey: {
+          name: 'hymnId',
+          allowNull: false
+        },
+        through: 'Agenda_Hymns'
+      });
     }
   };
   Agenda.init({

@@ -7,6 +7,8 @@ const passport = require('passport');
 const path = require('path');
 const sacramentMeeting = require('./mocks/sacrament_meeting.json');
 
+const { Agenda, Hymn, Agenda_Hymns } = require('./models');
+
 const app = express();
 
 process.env.HTTPS = true
@@ -69,6 +71,25 @@ app.get('/status', (req, res) => {
   } else {
     res.redirect('/login');
   }
+});
+
+app.get('/test', async (req, res) => {
+  const agendas = await Hymn.findAll({
+    include: [{
+        model: Agenda,
+        as: 'agendas',
+        required: false,
+        attributes: ['date', 'name'],
+        through: {
+          model: Agenda_Hymns,
+          as: 'agendaHymns',
+          attributes: [],
+        }
+    }]
+  });
+  res.json({
+    hymnsWithAgendas: agendas
+  })
 });
 
 
