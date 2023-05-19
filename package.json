@@ -20,6 +20,7 @@
     "webpack-dev-server": "^4.15.0"
   },
   "dependencies": {
-    "@babel/core": "^7.21.8"
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5"
   }
 }
