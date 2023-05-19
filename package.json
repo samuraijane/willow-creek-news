@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "npm run clean && webpack --mode production",
+    "clean": "rimraf build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
