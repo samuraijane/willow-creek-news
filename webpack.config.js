@@ -9,6 +9,15 @@ module.exports = {
     port: 3000
   },
   entry: "./src/index.js",
+  module: {
+    rules: [
+      {
+        test: /\.(js)$/,
+        exclude: /node_modules/,
+        use: ["babel-loader"],
+      }
+    ]
+  },
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "build")
@@ -17,5 +26,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "public", "index.html")
     })
-  ]
+  ],
+  resolve: {
+    extensions: ["*", ".js"],
+  }
 };
