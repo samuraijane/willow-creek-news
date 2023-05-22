@@ -1,3 +1,11 @@
-const App = () => <h1>Hello from React!</h1>;
+import { Footer, Header, Main } from "./sectioning";
+
+const App = () => (
+  <>
+    <Header />
+    <Main />
+    <Footer />
+  </>
+);
 
 export default App;
