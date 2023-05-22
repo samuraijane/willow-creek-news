@@ -8,7 +8,7 @@ module.exports = {
     },
     port: 3000
   },
-  entry: "./src/index.js",
+  entry: "./src/index.tsx",
   module: {
     rules: [
       {
@@ -19,7 +19,11 @@ module.exports = {
       {
         test: /\.(s(a|c)ss)$/,
         use: ['style-loader','css-loader', 'sass-loader']
-     }
+      },
+      { 
+        test: /\.(ts|tsx)$/, 
+        loader: "ts-loader" 
+      }
     ]
   },
   output: {
@@ -32,6 +36,6 @@ module.exports = {
     })
   ],
   resolve: {
-    extensions: ["*", ".js", ".jsx"],
+    extensions: [".*", ".js", ".jsx", ".ts", ".tsx"]
   }
 };
