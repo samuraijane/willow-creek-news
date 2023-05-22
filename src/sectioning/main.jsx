@@ -1,3 +1,5 @@
-const Main = () => <main>Main</main>;
+const Main = () => (
+  <main className="y-wrap">Main</main>
+);
 
 export default Main;

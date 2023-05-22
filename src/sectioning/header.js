@@ -1,3 +1,7 @@
-const Header = () => (<header>Header</header>);
+const Header = () => (
+  <header>
+    <div className="y-wrap">Header</div>
+  </header>
+);
 
 export default Header;
