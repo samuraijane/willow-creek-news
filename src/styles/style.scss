@@ -1,3 +1,12 @@
-body {
-  color: crimson;
-}
+//----------------------------------------------------------------------------
+//  Applied global styles
+//----------------------------------------------------------------------------
+
+@import "./_variables";
+@import "./_fonts";
+@import "./_reset";
+@import "./_mixins";
+@import "./_base";
+@import "./_layout";
+@import "./_vendor";
+@import "./_zasu";
