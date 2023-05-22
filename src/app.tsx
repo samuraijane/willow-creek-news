@@ -1,6 +1,6 @@
 import { Footer, Header, Main } from "./sectioning";
 
-const App = () => (
+const App = (): JSX.Element => (
   <>
     <Header />
     <Main />
