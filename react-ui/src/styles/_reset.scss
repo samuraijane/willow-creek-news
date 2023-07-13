@@ -253,10 +253,13 @@ hr {
   margin: 1em 0;
   padding: 0;
 }
+/*
+// `font-smoothing` appears to be on track to be deprecated as of some time before July 2023.
 html {
-  // -moz-osx-font-smoothing: grayscale;
-  // -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
+*/
 
 //----------------------------------------------------------------------------
 //	Quotes
