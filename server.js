@@ -17,7 +17,7 @@ server.get('/heartbeat', (req, res) => {
 
 // delegate client-side routing to the client
 server.get('*', (req, res) => {
-  res.sendFile(path.resolve(`${__dirname}/react-ui/build/index.html')`));
+  res.sendFile(path.resolve(`${__dirname}/react-ui/build/index.html)`));
 });
 
 server.listen(process.env.PORT || PORT, () => {
