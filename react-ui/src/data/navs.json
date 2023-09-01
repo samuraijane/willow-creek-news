@@ -1,0 +1,32 @@
+[
+  {
+    "href": "/",
+    "id": "nav-home",
+    "text": "Home"
+  },
+  {
+    "href": "/nav-1",
+    "id": "nav-1",
+    "text": "Nav 1"
+  },
+  {
+    "href": "/nav-2",
+    "id": "nav-2",
+    "text": "Nav 2"
+  },
+  {
+    "href": "/nav-3",
+    "id": "nav-3",
+    "text": "Nav 3"
+  },
+  {
+    "href": "/nav-4",
+    "id": "nav-4",
+    "text": "Nav 4"
+  },
+  {
+    "href": "/nav-5",
+    "id": "nav-5",
+    "text": "Nav 5"
+  }
+]
