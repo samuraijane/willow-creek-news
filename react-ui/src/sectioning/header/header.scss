@@ -1,5 +1,11 @@
 .navs {
+  display: flex;
   a {
+    margin: 0 0 0 30px;
+    &:first-child {
+      flex: 1;
+      margin-left: 0;
+    }
     &.active {
       color: crimson;
     }
