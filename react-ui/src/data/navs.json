@@ -1,32 +1,56 @@
 [
   {
+    "id": "i7gdqf5e5o",
+    "isActive": true,
     "href": "/",
-    "id": "nav-home",
-    "text": "Home"
+    "text": "Willow Creek News"
   },
   {
-    "href": "/nav-1",
-    "id": "nav-1",
-    "text": "Nav 1"
+    "id": "ztw10qvo3r",
+    "isActive": false,
+    "href": "/calendars",
+    "text": "Calendars"
   },
   {
-    "href": "/nav-2",
-    "id": "nav-2",
-    "text": "Nav 2"
+    "id": "3gy3wendfm",
+    "isActive": false,
+    "href": "/contact",
+    "text": "Contact"
   },
   {
-    "href": "/nav-3",
-    "id": "nav-3",
-    "text": "Nav 3"
+    "id": "i2rv11ftdb",
+    "isActive": false,
+    "href": "/temple-and-family-history",
+    "text": "Temple and Family History"
   },
   {
-    "href": "/nav-4",
-    "id": "nav-4",
-    "text": "Nav 4"
+    "id": "2ggkmwwo5g",
+    "isActive": false,
+    "href": "/mission-statement",
+    "text": "Mission Statement"
   },
   {
-    "href": "/nav-5",
-    "id": "nav-5",
-    "text": "Nav 5"
+    "id": "gndctp8t19",
+    "isActive": false,
+    "href": "/ward-mission",
+    "text": "Ward Mission"
+  },
+  {
+    "id": "947cg9db77",
+    "isActive": false,
+    "href": "/sacrament-meeting",
+    "text": "Sacrament Meeting"
+  },
+  {
+    "id": "j3x82dbcv0",
+    "isActive": false,
+    "href": "/service",
+    "text": "Service"
+  },
+  {
+    "id": "eg7qdneaeb",
+    "isActive": false,
+    "href": "/worship-with-us",
+    "text": "Worship with us"
   }
 ]

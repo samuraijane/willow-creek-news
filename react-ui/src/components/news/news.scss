@@ -1,0 +1,16 @@
+.news {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin: 0 auto;
+  max-width: 690px;
+
+  .news__title {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    margin: 0 0 6px 0;
+  }
+
+  a {
+    color: crimson;
+  }
+}

@@ -3,7 +3,9 @@ import './header.scss';
 import navs from './../../data/navs.json';
 
 const Header = (): JSX.Element => {
-  const _navs = navs.map((nav) => <NavLink to={nav.href}>{nav.text}</NavLink>)
+  const _navs = navs
+    .filter(x => x.isActive)
+    .map((nav) => <NavLink to={nav.href}>{nav.text}</NavLink>);
 
   return (
     <header>

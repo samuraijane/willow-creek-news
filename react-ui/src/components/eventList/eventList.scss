@@ -1,0 +1,11 @@
+.events {
+  &.events--short-date {
+    li {
+      margin: 4px 0;
+    }
+    .events__event-date {
+      display: inline-block;
+      min-width: 98px;
+    }
+  }
+}

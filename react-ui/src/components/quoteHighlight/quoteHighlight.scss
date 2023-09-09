@@ -1,0 +1,63 @@
+@import "../../styles/mixins";
+
+.quote-highlight {
+  margin: 0 auto;
+  max-width: 690px;
+
+  @include _mq(intermediate) {
+    display: flex;
+    align-items: center;
+  }
+
+  blockquote {
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 48px;
+    margin-bottom: 30px;
+    padding: 0 10%;
+    text-align: center;
+
+    @include _mq(intermediate) {
+      flex: 1 0 70%;
+      margin-bottom: 0;
+      padding-left: 30px;
+      padding-right: 30px;
+      text-align: left;
+    }
+  }
+
+  .quote-highlight__tbd {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+
+    @include _mq(intermediate) {
+      flex: 1 0 30%;
+    }
+  }
+
+  .placeholder {
+    background-color: #ccc;
+    height: 400px;
+    position: relative;
+    width: 300px;
+
+    &:after {
+      align-items: center;
+      color: #888;
+      content: "image missing";
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      position: absolute;
+      width: 100%;
+    }
+  }
+
+  .c-image--author-quote {
+    margin: 0 0 10px 0;
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "activeClassName": "navs__active",
+    "exact": true,
+    "group": "primary",
+    "href": "/calendars",
+    "isActive": false,
+    "isPublic": true,
+    "value": "Calendars"
+  },
+  {
+    "activeClassName": "navs__active",
+    "exact": true,
+    "group": "secondary",
+    "href": "/contact",
+    "isActive": true,
+    "isPublic": true,
+    "value": "Contact"
+  },
+  {
+    "activeClassName": "navs__active",
+    "exact": true,
+    "group": "primary",
+    "href": "/temple-and-family-history",
+    "isActive": true,
+    "isPublic": true,
+    "value": "Temple and Family History"
+  },
+  {
+    "activeClassName": "navs__active",
+    "exact": true,
+    "group": "secondary",
+    "href": "/mission-statement",
+    "isActive": true,
+    "isPublic": true,
+    "value": "Mission Statement"
+  },
+  {
+    "activeClassName": "navs__active",
+    "exact": true,
+    "group": "primary",
+    "href": "/ward-mission",
+    "isActive": true,
+    "isPublic": true,
+    "value": "Ward Mission"
+  },
+  {
+    "activeClassName": "navs__active",
+    "exact": true,
+    "group": "primary",
+    "href": "/sacrament-meeting",
+    "isActive": true,
+    "isPublic": true,
+    "value": "Sacrament Meeting"
+  },
+  {
+    "activeClassName": "navs__active",
+    "exact": true,
+    "group": "primary",
+    "href": "/service",
+    "isActive": false,
+    "isPublic": true,
+    "value": "Service"
+  },
+  {
+    "activeClassName": "navs__active",
+    "exact": true,
+    "group": "secondary",
+    "href": "/worship-with-us",
+    "isActive": true,
+    "isPublic": true,
+    "value": "Worship with us"
+  }
+]

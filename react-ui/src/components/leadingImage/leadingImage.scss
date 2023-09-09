@@ -1,0 +1,33 @@
+.leading {
+  margin: 30px 0 0 0;
+
+  .b-image {
+    &.b-image--leading {
+      // min-height: 320px; // 417px;
+      margin: 0 auto;
+      max-width: 690px;
+      opacity: 0;
+      transition: opacity 300ms ease-in-out;
+    }
+    &.b-image--leading-active {
+      opacity: 1;
+    }
+  }
+  
+  .c-image {
+    &.c-image--leading {
+      // min-height: 230px; //353px;
+      width: 100%;
+    }
+  }
+  
+  figcaption {
+    // display: flex;
+    margin: 10px 0;
+    span {
+      color: #444;
+      font-size: 0.875rem;
+      margin-right: 6px;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "admin": {
+    "conducting": "Charlie Crose",
+    "presiding": "Bishop Matthew Rose"
+  },
+  "business": {
+    "isStakeBusiness": null,
+    "isWardBusiness": null
+  },
+  "date": "10 Sep 2023 10:30:00 GMT-0400",
+  "holiday": {
+    "name": null,
+    "isRecognizedHoliday": false
+  },
+  "music": {
+    "hymn": {
+      "closing": {
+        "number": 3,
+        "title": "Now Let Us Rejoice"
+      },
+      "intermediate": {
+        "number": 193,
+        "title": "I Stand All Amazed"
+      },
+      "opening": {
+        "number": 111,
+        "title": "Rock of Ages"
+      },
+      "sacrament": {
+        "number": 169,
+        "title": "As Now We Take the Sacrament"
+      }
+    },
+    "music_director": "Susie Carson",
+    "musical_number": null,
+    "organist": "Nancy Jensen"
+  },
+  "prayer": {
+    "closing_prayer": "",
+    "opening_prayer": ""
+  },
+  "speakers": [
+    {
+      "isTestimony": false,
+      "name": "Lori Neerings",
+      "order": 1
+    },
+    {
+      "isTestimony": false,
+      "name": "Mark Prestwich"
+
+    }
+  ],
+  "type": {
+    "isFastSunday": false,
+    "isGeneralConference": false,
+    "isStakeConference": false,
+    "isWardConference": false
+  }
+}

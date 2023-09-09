@@ -1,13 +1,15 @@
 .navs {
   display: flex;
+  font-size: 1.5rem;
   a {
-    margin: 0 0 0 30px;
+    text-align: center;
+    // margin: 0 0 0 30px;
     &:first-child {
       flex: 1;
-      margin-left: 0;
+      // margin-left: 0;
     }
     &.active {
-      color: crimson;
+      // color: crimson; // TODO leaving off until we get multiple navs
     }
   }
 }

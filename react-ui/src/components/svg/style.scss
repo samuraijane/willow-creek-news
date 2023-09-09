@@ -1,0 +1,23 @@
+.svg__default {
+  fill: white;
+  width: 32px;
+
+  svg {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.svg__login {
+  width: 100px;
+
+  /* TODO make DRY */
+  svg {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.svg__center {
+  text-align: center;
+}
