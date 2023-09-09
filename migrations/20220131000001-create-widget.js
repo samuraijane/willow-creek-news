@@ -1,21 +1,24 @@
 'use strict';
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('Agenda_Hymns', {
+    await queryInterface.createTable('Hymns', {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      agendaId: {
+      title: {
+        type: Sequelize.STRING
+      },
+      hymnNo: {
         type: Sequelize.INTEGER
       },
-      hymnId: {
-        type: Sequelize.INTEGER
+      isRestricted: {
+        type: Sequelize.BOOLEAN
       },
-      order: {
-        type: Sequelize.INTEGER
+      href: {
+        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,
@@ -28,6 +31,6 @@ module.exports = {
     });
   },
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('Agenda_Hymns');
+    await queryInterface.dropTable('Hymns');
   }
 };

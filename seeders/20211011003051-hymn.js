@@ -167,7 +167,7 @@ module.exports = {
         href: "0210-come-listen-to-a-prophets-voice",
         hymnNo: "21",
         isRestricted: false,
-        title: "Come, Listen to a Prophet’s Voice",
+        title: "Come, Listen to a Prophet's Voice",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -175,7 +175,7 @@ module.exports = {
         href: "0220-we-listen-to-a-prophets-voice",
         hymnNo: "22",
         isRestricted: false,
-        title: "We Listen to a Prophet’s Voice",
+        title: "We Listen to a Prophet's Voice",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -199,7 +199,7 @@ module.exports = {
         href: "0250-now-well-sing-with-one-accord",
         hymnNo: "25",
         isRestricted: false,
-        title: "Now We’ll Sing with One Accord",
+        title: "Now We'll Sing with One Accord",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -207,7 +207,7 @@ module.exports = {
         href: "0260-joseph-smiths-first-prayer",
         hymnNo: "26",
         isRestricted: false,
-        title: "Joseph Smith’s First Prayer",
+        title: "Joseph Smith's First Prayer",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -335,7 +335,7 @@ module.exports = {
         href: "0420-hail-to-the-brightness-of-zions-glad-morning",
         hymnNo: "42",
         isRestricted: false,
-        title: "Hail to the Brightness of Zion’s Glad Morning!",
+        title: "Hail to the Brightness of Zion's Glad Morning!",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -423,7 +423,7 @@ module.exports = {
         href: "0530-let-earths-inhabitants-rejoice",
         hymnNo: "53",
         isRestricted: false,
-        title: "Let Earth’s Inhabitants Rejoice",
+        title: "Let Earth's Inhabitants Rejoice",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -455,7 +455,7 @@ module.exports = {
         href: "0570-were-not-ashamed-to-own-our-lord",
         hymnNo: "57",
         isRestricted: false,
-        title: "We’re Not Ashamed to Own Our Lord",
+        title: "We're Not Ashamed to Own Our Lord",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -903,7 +903,7 @@ module.exports = {
         href: "1130-our-saviors-love",
         hymnNo: "113",
         isRestricted: false,
-        title: "Our Savior’s Love",
+        title: "Our Savior's Love",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -967,7 +967,7 @@ module.exports = {
         href: "1210-im-a-pilgrim-im-a-stranger",
         hymnNo: "121",
         isRestricted: false,
-        title: "I’m a Pilgrim, I’m a Stranger",
+        title: "I'm a Pilgrim, I'm a Stranger",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -999,7 +999,7 @@ module.exports = {
         href: "1250-how-gentle-gods-commands",
         hymnNo: "125",
         isRestricted: false,
-        title: "How Gentle God’s Commands",
+        title: "How Gentle God's Commands",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -1159,7 +1159,7 @@ module.exports = {
         href: "1450-prayer-is-the-souls-sincere-desire",
         hymnNo: "145",
         isRestricted: false,
-        title: "Prayer Is the Soul’s Sincere Desire",
+        title: "Prayer Is the Soul's Sincere Desire",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -1319,7 +1319,7 @@ module.exports = {
         href: "1650-abide-with-me;-tis-eventide",
         hymnNo: "165",
         isRestricted: false,
-        title: "Abide with Me; ’Tis Eventide",
+        title: "Abide with Me; 'Tis Eventide",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -1407,7 +1407,7 @@ module.exports = {
         href: "1760-tis-sweet-to-sing-the-matchless-love-meredith",
         hymnNo: "176",
         isRestricted: false,
-        title: "’Tis Sweet to Sing the Matchless Love (MEREDITH)",
+        title: "'Tis Sweet to Sing the Matchless Love (MEREDITH)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -1415,7 +1415,7 @@ module.exports = {
         href: "1770-tis-sweet-to-sing-the-matchless-love-hancock",
         hymnNo: "177",
         isRestricted: false,
-        title: "’Tis Sweet to Sing the Matchless Love (HANCOCK)",
+        title: "'Tis Sweet to Sing the Matchless Love (HANCOCK)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -1455,7 +1455,7 @@ module.exports = {
         href: "1820-well-sing-all-hail-to-jesus-name",
         hymnNo: "182",
         isRestricted: false,
-        title: "We’ll Sing All Hail to Jesus’ Name",
+        title: "We'll Sing All Hail to Jesus' Name",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -1639,7 +1639,7 @@ module.exports = {
         href: "2050-once-in-royal-davids-city",
         hymnNo: "205",
         isRestricted: false,
-        title: "Once in Royal David’s City",
+        title: "Once in Royal David's City",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -1695,7 +1695,7 @@ module.exports = {
         href: "2120-far-far-away-on-judeas-plains",
         hymnNo: "212",
         isRestricted: false,
-        title: "Far, Far Away on Judea’s Plains",
+        title: "Far, Far Away on Judea's Plains",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2047,7 +2047,7 @@ module.exports = {
         href: "2560-as-zions-youth-in-latter-days",
         hymnNo: "256",
         isRestricted: false,
-        title: "As Zion’s Youth in Latter Days",
+        title: "As Zion's Youth in Latter Days",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2079,7 +2079,7 @@ module.exports = {
         href: "2600-whos-on-the-lords-side",
         hymnNo: "260",
         isRestricted: false,
-        title: "Who’s on the Lord’s Side?",
+        title: "Who's on the Lord's Side?",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2159,7 +2159,7 @@ module.exports = {
         href: "2700-ill-go-where-you-want-me-to-go",
         hymnNo: "270",
         isRestricted: false,
-        title: "I’ll Go Where You Want Me to Go",
+        title: "I'll Go Where You Want Me to Go",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2447,7 +2447,7 @@ module.exports = {
         href: "3060-gods-daily-care",
         hymnNo: "306",
         isRestricted: false,
-        title: "God’s Daily Care",
+        title: "God's Daily Care",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2511,7 +2511,7 @@ module.exports = {
         href: "3140-how-gentle-gods-commands-women",
         hymnNo: "314",
         isRestricted: false,
-        title: "How Gentle God’s Commands (Women)",
+        title: "How Gentle God's Commands (Women)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2583,7 +2583,7 @@ module.exports = {
         href: "3230-rise-up-o-men-of-god-mens-choir",
         hymnNo: "323",
         isRestricted: false,
-        title: "Rise Up, O Men of God (Men’s Choir)",
+        title: "Rise Up, O Men of God (Men's Choir)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2599,7 +2599,7 @@ module.exports = {
         href: "3250-see-the-mighty-priesthood-gathered-mens-choir",
         hymnNo: "325",
         isRestricted: false,
-        title: "See the Mighty Priesthood Gathered (Men’s Choir)",
+        title: "See the Mighty Priesthood Gathered (Men's Choir)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2607,7 +2607,7 @@ module.exports = {
         href: "3260-come-come-ye-saints-mens-choir",
         hymnNo: "326",
         isRestricted: false,
-        title: "Come, Come, Ye Saints (Men’s Choir)",
+        title: "Come, Come, Ye Saints (Men's Choir)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2615,7 +2615,7 @@ module.exports = {
         href: "3270-go-ye-messengers-of-heaven-mens-choir",
         hymnNo: "327",
         isRestricted: false,
-        title: "Go, Ye Messengers of Heaven (Men’s Choir)",
+        title: "Go, Ye Messengers of Heaven (Men's Choir)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2623,7 +2623,7 @@ module.exports = {
         href: "3280-an-angel-from-on-high-mens-choir",
         hymnNo: "328",
         isRestricted: false,
-        title: "An Angel from on High (Men’s Choir)",
+        title: "An Angel from on High (Men's Choir)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2631,7 +2631,7 @@ module.exports = {
         href: "3290-thy-servants-are-prepared-mens-choir",
         hymnNo: "329",
         isRestricted: false,
-        title: "Thy Servants Are Prepared (Men’s Choir)",
+        title: "Thy Servants Are Prepared (Men's Choir)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2639,7 +2639,7 @@ module.exports = {
         href: "3300-see-the-mighty-angel-flying-mens-choir",
         hymnNo: "330",
         isRestricted: false,
-        title: "See, the Mighty Angel Flying (Men’s Choir)",
+        title: "See, the Mighty Angel Flying (Men's Choir)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2647,7 +2647,7 @@ module.exports = {
         href: "3310-oh-say-what-is-truth-mens-choir",
         hymnNo: "331",
         isRestricted: false,
-        title: "Oh Say, What Is Truth? (Men’s Choir)",
+        title: "Oh Say, What Is Truth? (Men's Choir)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2655,7 +2655,7 @@ module.exports = {
         href: "3320-come-o-thou-king-of-kings-mens-choir",
         hymnNo: "332",
         isRestricted: false,
-        title: "Come, O Thou King of Kings (Men’s Choir)",
+        title: "Come, O Thou King of Kings (Men's Choir)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2663,7 +2663,7 @@ module.exports = {
         href: "3330-high-on-the-mountain-top-mens-choir",
         hymnNo: "333",
         isRestricted: false,
-        title: "High on the Mountain Top (Men’s Choir)",
+        title: "High on the Mountain Top (Men's Choir)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2671,7 +2671,7 @@ module.exports = {
         href: "3340-i-need-thee-every-hour-mens-choir",
         hymnNo: "334",
         isRestricted: false,
-        title: "I Need Thee Every Hour (Men’s Choir)",
+        title: "I Need Thee Every Hour (Men's Choir)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2679,7 +2679,7 @@ module.exports = {
         href: "3350-brightly-beams-our-fathers-mercy-mens-choir",
         hymnNo: "335",
         isRestricted: false,
-        title: "Brightly Beams Our Father’s Mercy (Men’s Choir)",
+        title: "Brightly Beams Our Father's Mercy (Men's Choir)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2687,7 +2687,7 @@ module.exports = {
         href: "3360-school-thy-feelings-mens-choir",
         hymnNo: "336",
         isRestricted: false,
-        title: "School Thy Feelings (Men’s Choir)",
+        title: "School Thy Feelings (Men's Choir)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2695,7 +2695,7 @@ module.exports = {
         href: "3370-o-home-beloved-mens-choir",
         hymnNo: "337",
         isRestricted: false,
-        title: "O Home Beloved (Men’s Choir)",
+        title: "O Home Beloved (Men's Choir)",
         createdAt: new Date(),
         updatedAt: new Date()
       },
@@ -2711,7 +2711,7 @@ module.exports = {
         href: "3390-my-country-tis-of-thee",
         hymnNo: "339",
         isRestricted: false,
-        title: "My Country, ’Tis of Thee",
+        title: "My Country, 'Tis of Thee",
         createdAt: new Date(),
         updatedAt: new Date()
       },

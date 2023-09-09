@@ -24,6 +24,34 @@ module.exports = (sequelize, DataTypes) => {
         },
         through: 'Agenda_Hymns'
       });
+      Agenda.belongsToMany(models.Music, {
+        as: 'musics',
+        foreignKey: {
+          name: 'agendaId',
+          allowNull: false
+        },
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE',
+        otherKey: {
+          name: 'musicId',
+          allowNull: false
+        },
+        through: 'Agenda_Musics'
+      });
+      Agenda.belongsToMany(models.Widget, {
+        as: 'widgets',
+        foreignKey: {
+          name: 'agendaId',
+          allowNull: false
+        },
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE',
+        otherKey: {
+          name: 'widgetId',
+          allowNull: false
+        },
+        through: 'Agenda_Widgets'
+      });
     }
   };
   Agenda.init({

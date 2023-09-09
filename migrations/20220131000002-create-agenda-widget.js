@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('Agenda_Hymns', {
+    await queryInterface.createTable('Agenda_Widgets', {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -11,7 +11,7 @@ module.exports = {
       agendaId: {
         type: Sequelize.INTEGER
       },
-      hymnId: {
+      widgetId: {
         type: Sequelize.INTEGER
       },
       order: {
@@ -28,6 +28,6 @@ module.exports = {
     });
   },
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('Agenda_Hymns');
+    await queryInterface.dropTable('Agenda_Widgets');
   }
 };

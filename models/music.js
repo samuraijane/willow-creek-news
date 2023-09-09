@@ -3,18 +3,17 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class Hymn extends Model {
+  class Music extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      // define association here
-      Hymn.belongsToMany(models.Agenda, {
+      Music.belongsToMany(models.Agenda, {
         as: 'agendas',
         foreignKey: {
-          name: 'hymnId',
+          name: 'musicId',
           allowNull: false
         },
         onDelete: 'CASCADE',
@@ -23,18 +22,16 @@ module.exports = (sequelize, DataTypes) => {
           name: 'agendaId',
           allowNull: false
         },
-        through: 'Agenda_Hymns'
+        through: 'Agenda_Musics'
       });
     }
   };
-  Hymn.init({
-    title: DataTypes.STRING,
-    hymnNo: DataTypes.INTEGER,
-    isRestricted: DataTypes.BOOLEAN,
-    href: DataTypes.STRING
+  Music.init({
+    title: DataTypes.STRING
   }, {
     sequelize,
-    modelName: 'Hymn',
+    modelName: 'Music',
+    tableName: 'Musics'  // without this, Sequelize looks for a table called "Music" because it stupidly puts grammar before logic since "Musics" isn't a word (see https://sequelize.org/master/manual/model-basics.html and the note about the "inflection" library)
   });
-  return Hymn;
+  return Music;
 };

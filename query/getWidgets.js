@@ -1,18 +1,18 @@
 const { Agenda, Hymn, Agenda_Hymn, Music, Agenda_Music, Widget, Agenda_Widget } = require('../models');
 const music = require('../models/music');
 
-const agendasWithHymns = async () => {
+const agendasWithWidgets = async () => {
   const agendas = await Agenda.findAll({
     include: [
       {
-        model: Hymn,
-        as: 'hymns',
+        model: Widget,
+        as: 'widgets',
         required: false,
-        attributes: ['id', 'title'],
+        attributes: ['isHymn'],
         through: {
-          model: Agenda_Hymn,
-          as: 'Agenda_Hymns',
-          attributes: ['agendaId', 'hymnId', 'order'],
+          model: Agenda_Widget,
+          as: 'agendaWidgets',
+          attributes: ['order'],
         }
       },
       {
@@ -22,29 +22,18 @@ const agendasWithHymns = async () => {
         attributes: ['title'],
         through: {
           model: Agenda_Music,
-          as: 'Agenda_Musics',
+          as: 'agendaMusics',
           attributes: ['order']
         }
-      },
-      // {
-      //   model: Widget,
-      //   as: 'widgets',
-      //   required: false,
-      //   attributes: ['title'],
-      //   through: {
-      //     model: Agenda_Widget,
-      //     as: 'agendaWidgets',
-      //     attributes: ['order']
-      //   }
-      // }
+      }
     ]
   })
-  // .catch(err => console.log(`ERROR --> ${err}`));
+  .catch(err => console.log(`ERROR --> ${err}`));
   console.log("All agendas with their associated hymns:", JSON.stringify(agendas, null, 4))
 };
 
 const run = async () => {
-    await agendasWithHymns();
+    await agendasWithWidgets();
     await process.exit();
 }
 

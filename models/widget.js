@@ -3,7 +3,7 @@ const {
   Model
 } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
-  class Hymn extends Model {
+  class Widget extends Model {
     /**
      * Helper method for defining associations.
      * This method is not a part of Sequelize lifecycle.
@@ -11,10 +11,10 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      Hymn.belongsToMany(models.Agenda, {
+      Widget.belongsToMany(models.Agenda, {
         as: 'agendas',
         foreignKey: {
-          name: 'hymnId',
+          name: 'widgetId',
           allowNull: false
         },
         onDelete: 'CASCADE',
@@ -23,18 +23,16 @@ module.exports = (sequelize, DataTypes) => {
           name: 'agendaId',
           allowNull: false
         },
-        through: 'Agenda_Hymns'
+        through: 'Agenda_Widgets'
       });
     }
   };
-  Hymn.init({
-    title: DataTypes.STRING,
-    hymnNo: DataTypes.INTEGER,
-    isRestricted: DataTypes.BOOLEAN,
-    href: DataTypes.STRING
+  Widget.init({
+    isHymn: DataTypes.BOOLEAN,
+    order: DataTypes.INTEGER
   }, {
     sequelize,
-    modelName: 'Hymn',
+    modelName: 'Widget',
   });
-  return Hymn;
+  return Widget;
 };

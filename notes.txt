@@ -1,0 +1,6 @@
+Consider a SPECIAL_DATES table for holiday
+isRecognized
+isCelebrated
+data
+name
+isChurchRelated
