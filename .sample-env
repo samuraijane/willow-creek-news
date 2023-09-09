@@ -1,2 +1,0 @@
-// Rename this file to .env and use it to store sensitive credentials that do not belong in version control. Delete this comment when you're done.
-PORT=8080
