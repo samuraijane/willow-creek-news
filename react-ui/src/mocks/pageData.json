@@ -1,0 +1,105 @@
+{
+  "leadingImage": {
+    "alt": "Group photo with missionary at airport",
+    "caption": "Elder Rose is surrounded by family at the Atlanta Airport after serving for two-years in the Argentina Resistencia Mission.",
+    "date": "September 2, 2023",
+    "type": "photo",
+    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1626933506/wcnews/images/20230902-elder-rose.jpg"
+  },
+  "news": [
+    {
+      "text": "In partnership with JustServe, the Marietta Stake is sponsoring a book drive to benefit multiple organizations in our area. The drive has been extended one week until September 11, 2023. See the <a href=\"https://res.cloudinary.com/samuraijane/image/upload/v1626933506/wcnews/images/20230820-book-drive.jpg\">flyer</a> for more information.",
+      "title": "Book Drive"
+    }
+  ],
+  "quote": {
+    "alt": "Elder M. Russell Ballard",
+    "author": "Elder M. Russell Ballard",
+    "href": "https://www.churchofjesuschrist.org/study/general-conference/2019/04/23ballard?lang=eng",
+    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1626933506/wcnews/images/m-russell-ballard-headshot.jpg",
+    "text": "The joy of gospel living for me has been centered on the true, pure, and simple doctrine and gospel of Jesus Christ."
+  },
+  "sacramentMeeting": {
+    "admins": [
+      {
+        "id": "98robnxy4o",
+        "name": "Charlie Crose",
+        "role": "Conducting"
+      },
+      {
+        "id": "nq6j1yt2qg",
+        "name": "Bishop Matthew Rose",
+        "role": "Presiding"
+      },
+      {
+        "id": "j3n8bfptpb",
+        "name": "Susie Carson",
+        "role": "Music Leader"
+      },
+      {
+        "id": "fq7okvbtpc",
+        "name": "Nancy Jensen",
+        "role": "Accompanist"
+      }
+    ],
+    "date": "September 10, 2023",
+    "programItems": [
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Welcome and Announcements"
+      },
+      {
+        "pair": ["Invocation", "by invitation"],
+        "subtype": "prayer",
+        "type": "pair"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Ward Business"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Stake Business"
+      },
+      {
+        "pair": ["Sacrament Hymn", "As Now We Take the Sacrament (#169)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Administration of the Sacrament"
+      },
+      {
+        "pair": ["Speaker", "Lori Neerings"],
+        "subtype": "speaker",
+        "type": "pair"
+      },
+      {
+        "pair": ["Intermediate Hymn", "I Stand All Amazed (#193)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Speaker", "Mark Prestwich"],
+        "subtype": "speaker",
+        "type": "pair"
+      },
+      {
+        "pair": ["Closing Hymn", "Now Let Us Rejoice (#3)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Benediction", "by invitation"],
+        "subtype": "prayer",
+        "type": "pair"
+      }
+    ],
+    "unitName": "Willow Creek Ward"
+  }
+}

@@ -1,17 +1,13 @@
 import { useState } from 'react';
+import { LeadingImageProps } from './leading-image-types';
 import './leadingImage.scss';
 
-interface SingleImageProps {
-  alt: string;
-  caption: string;
-  date: string;
-  type: string;
-  url: string;
-}
-
 const LeadingImage = ({
-  alt, caption, date, type, url
-}: SingleImageProps): JSX.Element => {
+  alt,
+  caption,
+  date,
+  url
+}: LeadingImageProps): JSX.Element => {
 
   const [readyState, setReadyState] = useState(false);
 

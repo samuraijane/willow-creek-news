@@ -1,16 +1,13 @@
+import { QuoteProps } from './quote-types';
 import './quoteHighlight.scss';
 
-interface QuoteHighlightProps {
-  alt: string;
-  author: string;
-  href: string;
-  imageURL: string;
-  text: string;
-}
-
 const QuoteHighlight = ({
-  alt, author, href, imageURL, text
-}: QuoteHighlightProps): JSX.Element => {
+  alt,
+  author,
+  href,
+  imageUrl,
+  text
+}: QuoteProps): JSX.Element => {
 
   return (
     <div className="b-image">
@@ -18,7 +15,7 @@ const QuoteHighlight = ({
         <blockquote>{text}</blockquote>
         <a className="quote-highlight__tbd" href={href}>
           <div className="c-image c-image--author-quote">
-            <img alt={alt} src={imageURL} />
+            <img alt={alt} src={imageUrl} />
           </div>
           <figcaption>{author}</figcaption>
         </a>

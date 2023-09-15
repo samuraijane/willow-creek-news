@@ -1,14 +1,22 @@
+import { simpleRandomInt } from '../../helpers/simpleRandomInt';
+import { NewsProps } from './news-types';
 import './news.scss';
 
-const News = (): JSX.Element => {
+// TODO find out if we are typing and consuming NewsProps and NewsItem correctly (unlike objects, we are passing in a raw array that is not attached to a keyname)
+const News = ({ news }: NewsProps): JSX.Element => {
+
+  const newsItems = news.map(newsItem => (
+    <li key={simpleRandomInt()}>
+      <div className='news__title'>{newsItem.title}</div>
+      <p dangerouslySetInnerHTML={{ __html: newsItem.text }} />
+    </li>
+  ));
+
   return (
     <div className="news">
       <h2>News</h2>
       <ul className='news__list'>
-        <li>
-          <div className='news__title'>Book Drive</div>
-          <p>In partnership with JustServe, the Marietta Stake is sponsoring a book drive to benefit multiple organizations in our area. The drive has been extended one week until September 11, 2023. See the <a href="https://res.cloudinary.com/samuraijane/image/upload/v1626933506/wcnews/images/20230820-book-drive.jpg">flyer</a> for more information.</p>
-        </li>
+        {newsItems}
       </ul>
     </div>
   );

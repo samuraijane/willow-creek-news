@@ -5,7 +5,7 @@ import navs from './../../data/navs.json';
 const Header = (): JSX.Element => {
   const _navs = navs
     .filter(x => x.isActive)
-    .map((nav) => <NavLink to={nav.href}>{nav.text}</NavLink>);
+    .map((nav) => <NavLink key={nav.id} to={nav.href}>{nav.text}</NavLink>);
 
   return (
     <header>
