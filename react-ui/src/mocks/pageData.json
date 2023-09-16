@@ -1,23 +1,23 @@
 {
   "leadingImage": {
     "alt": "Group photo with missionary at airport",
-    "caption": "Elder Rose is surrounded by family at the Atlanta Airport after serving for two-years in the Argentina Resistencia Mission.",
-    "date": "September 2, 2023",
+    "caption": "Lauren and Seth Taylor pause for a photo with Thomas Paravato and other family memebers while enjoying time at home.",
+    "date": "September x, 2023",
     "type": "photo",
-    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1626933506/wcnews/images/20230902-elder-rose.jpg"
+    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1694878829/wcnews/images/20230917-taylor-paravato.jpg"
   },
   "news": [
     {
-      "text": "In partnership with JustServe, the Marietta Stake is sponsoring a book drive to benefit multiple organizations in our area. The drive has been extended one week until September 11, 2023. See the <a href=\"https://res.cloudinary.com/samuraijane/image/upload/v1626933506/wcnews/images/20230820-book-drive.jpg\">flyer</a> for more information.",
-      "title": "Book Drive"
+      "text": "For September 23, the assigned families are Tolman, York, Buchanan, and Bendixsen.",
+      "title": "Building Cleaning"
     }
   ],
   "quote": {
-    "alt": "Elder M. Russell Ballard",
-    "author": "Elder M. Russell Ballard",
-    "href": "https://www.churchofjesuschrist.org/study/general-conference/2019/04/23ballard?lang=eng",
-    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1626933506/wcnews/images/m-russell-ballard-headshot.jpg",
-    "text": "The joy of gospel living for me has been centered on the true, pure, and simple doctrine and gospel of Jesus Christ."
+    "alt": "Elder Marvin J. Ashton",
+    "author": "Elder Marvin J. Ashton",
+    "href": "https://www.churchofjesuschrist.org/study/general-conference/1992/04/the-tongue-can-be-a-sharp-sword?lang=eng",
+    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1694879794/wcnews/images/marvin-j-ashton.jpg",
+    "text": "The best and most clear indicator that we are progressing spiritually and coming unto Christ is the way we treat other people."
   },
   "sacramentMeeting": {
     "admins": [
@@ -80,7 +80,7 @@
         "value": "Administration of the Sacrament"
       },
       {
-        "pair": ["Speaker", "Emma Rose (Farewall)"],
+        "pair": ["Speaker", "Emma Rose (Farewell)"],
         "subtype": "speaker",
         "type": "pair"
       },
