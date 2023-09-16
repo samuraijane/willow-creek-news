@@ -20,8 +20,8 @@
     margin: 30px 0;
 
     @include _mq(intermediate) {
-      margin-bottom: 20px;
-      margin-top: 20px;
+      margin-bottom: 30px;
+      margin-top: 30px;
     }
 
     &:last-child {
@@ -63,9 +63,10 @@
   }
 
   .s-mtg__pair {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 500px;
 
     @include _mq(intermediate) {
