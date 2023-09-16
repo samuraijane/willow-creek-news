@@ -23,7 +23,7 @@
     "admins": [
       {
         "id": "98robnxy4o",
-        "name": "Charlie Crose",
+        "name": "Peter Munk",
         "role": "Conducting"
       },
       {
@@ -55,6 +55,11 @@
         "type": "pair"
       },
       {
+        "pair": ["Opening Hymn", "We Meet Dear Lord (#151)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
         "subtype": "single",
         "type": "static",
         "value": "Ward Business"
@@ -65,7 +70,7 @@
         "value": "Stake Business"
       },
       {
-        "pair": ["Sacrament Hymn", "As Now We Take the Sacrament (#169)"],
+        "pair": ["Sacrament Hymn", "Behold the Great Redeemer Die (#191)"],
         "subtype": "music",
         "type": "pair"
       },
@@ -75,22 +80,22 @@
         "value": "Administration of the Sacrament"
       },
       {
-        "pair": ["Speaker", "Lori Neerings"],
+        "pair": ["Speaker", "Emma Rose (Farewall)"],
         "subtype": "speaker",
         "type": "pair"
       },
       {
-        "pair": ["Intermediate Hymn", "I Stand All Amazed (#193)"],
+        "pair": ["Intermediate Hymn", "O Love That Glorifies the Son (#295)"],
         "subtype": "music",
         "type": "pair"
       },
       {
-        "pair": ["Speaker", "Mark Prestwich"],
+        "pair": ["Speaker", "Luke Rose (Homecoming)"],
         "subtype": "speaker",
         "type": "pair"
       },
       {
-        "pair": ["Closing Hymn", "Now Let Us Rejoice (#3)"],
+        "pair": ["Closing Hymn", "God Be with You Till We Meet Again (#152)"],
         "subtype": "music",
         "type": "pair"
       },
