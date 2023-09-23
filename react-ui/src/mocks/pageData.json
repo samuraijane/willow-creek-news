@@ -1,23 +1,23 @@
 {
   "leadingImage": {
-    "alt": "Group photo with missionary at airport",
-    "caption": "Elder Rose is surrounded by family at the Atlanta Airport after serving for two-years in the Argentina Resistencia Mission.",
-    "date": "September 2, 2023",
+    "alt": "Young members gather to celebrate a grandfather's birthday",
+    "caption": "The Pharo children gather with cousins to celebrate their grandfather's 80th birthday.",
+    "date": "July 16, 2023",
     "type": "photo",
-    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1626933506/wcnews/images/20230902-elder-rose.jpg"
+    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1695436332/wcnews/images/20230924-pharo-family.jpg"
   },
   "news": [
     {
-      "text": "In partnership with JustServe, the Marietta Stake is sponsoring a book drive to benefit multiple organizations in our area. The drive has been extended one week until September 11, 2023. See the <a href=\"https://res.cloudinary.com/samuraijane/image/upload/v1626933506/wcnews/images/20230820-book-drive.jpg\">flyer</a> for more information.",
-      "title": "Book Drive"
+      "text": "For September 30, the assigned families are Hutchings, Nooner, and Zarkou.",
+      "title": "Building Cleaning"
     }
   ],
   "quote": {
-    "alt": "Elder M. Russell Ballard",
-    "author": "Elder M. Russell Ballard",
-    "href": "https://www.churchofjesuschrist.org/study/general-conference/2019/04/23ballard?lang=eng",
-    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1626933506/wcnews/images/m-russell-ballard-headshot.jpg",
-    "text": "The joy of gospel living for me has been centered on the true, pure, and simple doctrine and gospel of Jesus Christ."
+    "alt": "President Harold B. Lee",
+    "author": "President Harold B. Lee",
+    "href": "https://www.churchofjesuschrist.org/study/manual/teachings-harold-b-lee/chapter-4?lang=eng",
+    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1695437180/wcnews/images/harold-b-lee.jpg",
+    "text": "The most important of all the commandments of God is that one that you are having the most difficulty keeping today."
   },
   "sacramentMeeting": {
     "admins": [
@@ -50,13 +50,13 @@
         "value": "Welcome and Announcements"
       },
       {
-        "pair": ["Invocation", "by invitation"],
-        "subtype": "prayer",
+        "pair": ["Opening Hymn", "Home Can Be a Heaven on Earth (#298)"],
+        "subtype": "music",
         "type": "pair"
       },
       {
-        "pair": ["Opening Hymn", "Home Can Be a Heaven on Earth (#298)"],
-        "subtype": "music",
+        "pair": ["Invocation", "by invitation"],
+        "subtype": "prayer",
         "type": "pair"
       },
       {
