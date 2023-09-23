@@ -1,23 +1,23 @@
 {
   "leadingImage": {
-    "alt": "Several family members smiling",
-    "caption": "Lauren and Seth Taylor pause for a photo with Thomas Paravato and other family memebers while enjoying time at home.",
-    "date": "September x, 2023",
+    "alt": "Group photo with missionary at airport",
+    "caption": "Elder Rose is surrounded by family at the Atlanta Airport after serving for two-years in the Argentina Resistencia Mission.",
+    "date": "September 2, 2023",
     "type": "photo",
-    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1694878829/wcnews/images/20230917-taylor-paravato.jpg"
+    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1626933506/wcnews/images/20230902-elder-rose.jpg"
   },
   "news": [
     {
-      "text": "For September 23, the assigned families are Tolman, York, Buchanan, and Bendixsen.",
-      "title": "Building Cleaning"
+      "text": "In partnership with JustServe, the Marietta Stake is sponsoring a book drive to benefit multiple organizations in our area. The drive has been extended one week until September 11, 2023. See the <a href=\"https://res.cloudinary.com/samuraijane/image/upload/v1626933506/wcnews/images/20230820-book-drive.jpg\">flyer</a> for more information.",
+      "title": "Book Drive"
     }
   ],
   "quote": {
-    "alt": "Elder Marvin J. Ashton",
-    "author": "Elder Marvin J. Ashton",
-    "href": "https://www.churchofjesuschrist.org/study/general-conference/1992/04/the-tongue-can-be-a-sharp-sword?lang=eng",
-    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1694879794/wcnews/images/marvin-j-ashton.jpg",
-    "text": "The best and most clear indicator that we are progressing spiritually and coming unto Christ is the way we treat other people."
+    "alt": "Elder M. Russell Ballard",
+    "author": "Elder M. Russell Ballard",
+    "href": "https://www.churchofjesuschrist.org/study/general-conference/2019/04/23ballard?lang=eng",
+    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1626933506/wcnews/images/m-russell-ballard-headshot.jpg",
+    "text": "The joy of gospel living for me has been centered on the true, pure, and simple doctrine and gospel of Jesus Christ."
   },
   "sacramentMeeting": {
     "admins": [
@@ -42,7 +42,7 @@
         "role": "Accompanist"
       }
     ],
-    "date": "September 17, 2023",
+    "date": "September 24, 2023",
     "programItems": [
       {
         "subtype": "single",
@@ -55,7 +55,7 @@
         "type": "pair"
       },
       {
-        "pair": ["Opening Hymn", "We Meet Dear Lord (#151)"],
+        "pair": ["Opening Hymn", "Home Can Be a Heaven on Earth (#298)"],
         "subtype": "music",
         "type": "pair"
       },
@@ -70,7 +70,7 @@
         "value": "Stake Business"
       },
       {
-        "pair": ["Sacrament Hymn", "Behold the Great Redeemer Die (#191)"],
+        "pair": ["Sacrament Hymn", "With Humble Heart (#171)"],
         "subtype": "music",
         "type": "pair"
       },
@@ -80,22 +80,27 @@
         "value": "Administration of the Sacrament"
       },
       {
-        "pair": ["Speaker", "Emma Rose (Farewell)"],
+        "pair": [" Youth Speaker", "Treaghen Connell"],
         "subtype": "speaker",
         "type": "pair"
       },
       {
-        "pair": ["Intermediate Hymn", "O Love That Glorifies the Son (#295)"],
+        "pair": ["Speaker", "Jenny Morgan"],
+        "subtype": "speaker",
+        "type": "pair"
+      },
+      {
+        "pair": ["Intermediate Hymn", "Lord I Would Follow Thee (#220)"],
         "subtype": "music",
         "type": "pair"
       },
       {
-        "pair": ["Speaker", "Luke Rose (Homecoming)"],
+        "pair": ["Speaker", "Aaron Driscoll (High Council)"],
         "subtype": "speaker",
         "type": "pair"
       },
       {
-        "pair": ["Closing Hymn", "God Be with You Till We Meet Again (#152)"],
+        "pair": ["Closing Hymn", "Love One Another (#308)"],
         "subtype": "music",
         "type": "pair"
       },
