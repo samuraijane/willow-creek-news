@@ -1,0 +1,110 @@
+{
+  "leadingImage": {
+    "alt": "Several family members smiling",
+    "caption": "Lauren and Seth Taylor pause for a photo with Thomas Paravato and other family memebers while enjoying time at home.",
+    "date": "September x, 2023",
+    "type": "photo",
+    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1694878829/wcnews/images/20230917-taylor-paravato.jpg"
+  },
+  "news": [
+    {
+      "text": "For September 23, the assigned families are Tolman, York, Buchanan, and Bendixsen.",
+      "title": "Building Cleaning"
+    }
+  ],
+  "quote": {
+    "alt": "Elder Marvin J. Ashton",
+    "author": "Elder Marvin J. Ashton",
+    "href": "https://www.churchofjesuschrist.org/study/general-conference/1992/04/the-tongue-can-be-a-sharp-sword?lang=eng",
+    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1694879794/wcnews/images/marvin-j-ashton.jpg",
+    "text": "The best and most clear indicator that we are progressing spiritually and coming unto Christ is the way we treat other people."
+  },
+  "sacramentMeeting": {
+    "admins": [
+      {
+        "id": "98robnxy4o",
+        "name": "Peter Munk",
+        "role": "Conducting"
+      },
+      {
+        "id": "nq6j1yt2qg",
+        "name": "Bishop Matthew Rose",
+        "role": "Presiding"
+      },
+      {
+        "id": "j3n8bfptpb",
+        "name": "Susie Carson",
+        "role": "Music Leader"
+      },
+      {
+        "id": "fq7okvbtpc",
+        "name": "Nancy Jensen",
+        "role": "Accompanist"
+      }
+    ],
+    "date": "September 17, 2023",
+    "programItems": [
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Welcome and Announcements"
+      },
+      {
+        "pair": ["Invocation", "by invitation"],
+        "subtype": "prayer",
+        "type": "pair"
+      },
+      {
+        "pair": ["Opening Hymn", "We Meet Dear Lord (#151)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Ward Business"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Stake Business"
+      },
+      {
+        "pair": ["Sacrament Hymn", "Behold the Great Redeemer Die (#191)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Administration of the Sacrament"
+      },
+      {
+        "pair": ["Speaker", "Emma Rose (Farewell)"],
+        "subtype": "speaker",
+        "type": "pair"
+      },
+      {
+        "pair": ["Intermediate Hymn", "O Love That Glorifies the Son (#295)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Speaker", "Luke Rose (Homecoming)"],
+        "subtype": "speaker",
+        "type": "pair"
+      },
+      {
+        "pair": ["Closing Hymn", "God Be with You Till We Meet Again (#152)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Benediction", "by invitation"],
+        "subtype": "prayer",
+        "type": "pair"
+      }
+    ],
+    "unitName": "Willow Creek Ward"
+  }
+}
