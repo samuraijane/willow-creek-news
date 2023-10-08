@@ -1,0 +1,115 @@
+{
+  "leadingImage": {
+    "alt": "Young members gather to celebrate a grandfather's birthday",
+    "caption": "The Pharo children gather with cousins to celebrate their grandfather's 80th birthday.",
+    "date": "July 16, 2023",
+    "type": "photo",
+    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1695436332/wcnews/images/20230924-pharo-family.jpg"
+  },
+  "news": [
+    {
+      "text": "For September 30, the assigned families are Hutchings, Nooner, and Zarkou.",
+      "title": "Building Cleaning"
+    }
+  ],
+  "quote": {
+    "alt": "President Harold B. Lee",
+    "author": "President Harold B. Lee",
+    "href": "https://www.churchofjesuschrist.org/study/manual/teachings-harold-b-lee/chapter-4?lang=eng",
+    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1695437180/wcnews/images/harold-b-lee.jpg",
+    "text": "The most important of all the commandments of God is that one that you are having the most difficulty keeping today."
+  },
+  "sacramentMeeting": {
+    "admins": [
+      {
+        "id": "98robnxy4o",
+        "name": "Peter Munk",
+        "role": "Conducting"
+      },
+      {
+        "id": "nq6j1yt2qg",
+        "name": "Bishop Matthew Rose",
+        "role": "Presiding"
+      },
+      {
+        "id": "j3n8bfptpb",
+        "name": "Susie Carson",
+        "role": "Music Leader"
+      },
+      {
+        "id": "fq7okvbtpc",
+        "name": "Nancy Jensen",
+        "role": "Accompanist"
+      }
+    ],
+    "date": "September 24, 2023",
+    "programItems": [
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Welcome and Announcements"
+      },
+      {
+        "pair": ["Opening Hymn", "Home Can Be a Heaven on Earth (#298)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Invocation", "by invitation"],
+        "subtype": "prayer",
+        "type": "pair"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Ward Business"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Stake Business"
+      },
+      {
+        "pair": ["Sacrament Hymn", "With Humble Heart (#171)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Administration of the Sacrament"
+      },
+      {
+        "pair": [" Youth Speaker", "Treaghen Connell"],
+        "subtype": "speaker",
+        "type": "pair"
+      },
+      {
+        "pair": ["Speaker", "Jenny Morgan"],
+        "subtype": "speaker",
+        "type": "pair"
+      },
+      {
+        "pair": ["Intermediate Hymn", "Lord I Would Follow Thee (#220)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Speaker", "Aaron Driscoll (High Council)"],
+        "subtype": "speaker",
+        "type": "pair"
+      },
+      {
+        "pair": ["Closing Hymn", "Love One Another (#308)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Benediction", "by invitation"],
+        "subtype": "prayer",
+        "type": "pair"
+      }
+    ],
+    "unitName": "Willow Creek Ward"
+  }
+}
