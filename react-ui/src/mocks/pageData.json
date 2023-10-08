@@ -1,29 +1,29 @@
 {
   "leadingImage": {
-    "alt": "Young members gather to celebrate a grandfather's birthday",
-    "caption": "The Pharo children gather with cousins to celebrate their grandfather's 80th birthday.",
-    "date": "July 16, 2023",
+    "alt": "Family members young and old hold rocks with their names with picturesque mountain in the background.",
+    "caption": "Members of the Heinrich family gather in Pigeon Forge, Tennessee to celebrate the 50th wedding anniversary of Oma and Opa Heinrich.",
+    "date": "June 18, 2023",
     "type": "photo",
-    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1695436332/wcnews/images/20230924-pharo-family.jpg"
+    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1696726569/wcnews/images/heinrich-family.jpg"
   },
   "news": [
     {
-      "text": "For September 30, the assigned families are Hutchings, Nooner, and Zarkou.",
+      "text": "For October 14, the assigned families are Prestwich, Crawford, and Brett & Sumier Overcash.",
       "title": "Building Cleaning"
     }
   ],
   "quote": {
-    "alt": "President Harold B. Lee",
-    "author": "President Harold B. Lee",
-    "href": "https://www.churchofjesuschrist.org/study/manual/teachings-harold-b-lee/chapter-4?lang=eng",
-    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1695437180/wcnews/images/harold-b-lee.jpg",
-    "text": "The most important of all the commandments of God is that one that you are having the most difficulty keeping today."
+    "alt": "Elder Gary B. Sabin",
+    "author": "Elder Gary B. Sabin",
+    "href": "https://www.churchofjesuschrist.org/study/general-conference/2023/10/31sabin?lang=eng",
+    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1696728492/wcnews/images/gary-b-sabin.jpg",
+    "text": "We will never regret being too kind. In God's eyes, kindness is synonymous with greatness."
   },
   "sacramentMeeting": {
     "admins": [
       {
         "id": "98robnxy4o",
-        "name": "Peter Munk",
+        "name": "Charlie Crose",
         "role": "Conducting"
       },
       {
@@ -42,7 +42,7 @@
         "role": "Accompanist"
       }
     ],
-    "date": "September 24, 2023",
+    "date": "October 8, 2023",
     "programItems": [
       {
         "subtype": "single",
@@ -50,7 +50,7 @@
         "value": "Welcome and Announcements"
       },
       {
-        "pair": ["Opening Hymn", "Home Can Be a Heaven on Earth (#298)"],
+        "pair": ["Opening Hymn", "Welcome, Welcome, Sabbath Morning (#280)"],
         "subtype": "music",
         "type": "pair"
       },
@@ -70,7 +70,7 @@
         "value": "Stake Business"
       },
       {
-        "pair": ["Sacrament Hymn", "With Humble Heart (#171)"],
+        "pair": ["Sacrament Hymn", "While of These Emblems We Partake (#174)"],
         "subtype": "music",
         "type": "pair"
       },
@@ -80,27 +80,12 @@
         "value": "Administration of the Sacrament"
       },
       {
-        "pair": [" Youth Speaker", "Treaghen Connell"],
-        "subtype": "speaker",
-        "type": "pair"
+        "subtype": "single",
+        "type": "static",
+        "value": "Bearing of Testimonies"
       },
       {
-        "pair": ["Speaker", "Jenny Morgan"],
-        "subtype": "speaker",
-        "type": "pair"
-      },
-      {
-        "pair": ["Intermediate Hymn", "Lord I Would Follow Thee (#220)"],
-        "subtype": "music",
-        "type": "pair"
-      },
-      {
-        "pair": ["Speaker", "Aaron Driscoll (High Council)"],
-        "subtype": "speaker",
-        "type": "pair"
-      },
-      {
-        "pair": ["Closing Hymn", "Love One Another (#308)"],
+        "pair": ["Closing Hymn", "Come, Follow Me (#116)"],
         "subtype": "music",
         "type": "pair"
       },
