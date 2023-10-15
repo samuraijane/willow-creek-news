@@ -1,0 +1,100 @@
+{
+  "leadingImage": {
+    "alt": "Family members young and old hold rocks with their names with picturesque mountain in the background.",
+    "caption": "Members of the Heinrich family gather in Pigeon Forge, Tennessee to celebrate the 50th wedding anniversary of Oma and Opa Heinrich.",
+    "date": "June 18, 2023",
+    "type": "photo",
+    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1696726569/wcnews/images/heinrich-family.jpg"
+  },
+  "news": [
+    {
+      "text": "For October 14, the assigned families are Prestwich, Crawford, and Brett & Sumier Overcash.",
+      "title": "Building Cleaning"
+    }
+  ],
+  "quote": {
+    "alt": "Elder Gary B. Sabin",
+    "author": "Elder Gary B. Sabin",
+    "href": "https://www.churchofjesuschrist.org/study/general-conference/2023/10/31sabin?lang=eng",
+    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1696728492/wcnews/images/gary-b-sabin.jpg",
+    "text": "We will never regret being too kind. In God's eyes, kindness is synonymous with greatness."
+  },
+  "sacramentMeeting": {
+    "admins": [
+      {
+        "id": "98robnxy4o",
+        "name": "Charlie Crose",
+        "role": "Conducting"
+      },
+      {
+        "id": "nq6j1yt2qg",
+        "name": "Bishop Matthew Rose",
+        "role": "Presiding"
+      },
+      {
+        "id": "j3n8bfptpb",
+        "name": "Susie Carson",
+        "role": "Music Leader"
+      },
+      {
+        "id": "fq7okvbtpc",
+        "name": "Nancy Jensen",
+        "role": "Accompanist"
+      }
+    ],
+    "date": "October 8, 2023",
+    "programItems": [
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Welcome and Announcements"
+      },
+      {
+        "pair": ["Opening Hymn", "Welcome, Welcome, Sabbath Morning (#280)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Invocation", "by invitation"],
+        "subtype": "prayer",
+        "type": "pair"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Ward Business"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Stake Business"
+      },
+      {
+        "pair": ["Sacrament Hymn", "While of These Emblems We Partake (#174)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Administration of the Sacrament"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Bearing of Testimonies"
+      },
+      {
+        "pair": ["Closing Hymn", "Come, Follow Me (#116)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Benediction", "by invitation"],
+        "subtype": "prayer",
+        "type": "pair"
+      }
+    ],
+    "unitName": "Willow Creek Ward"
+  }
+}
