@@ -1,23 +1,23 @@
 {
   "leadingImage": {
-    "alt": "Family members young and old hold rocks with their names with picturesque mountain in the background.",
-    "caption": "Members of the Heinrich family gather in Pigeon Forge, Tennessee to celebrate the 50th wedding anniversary of Oma and Opa Heinrich.",
-    "date": "June 18, 2023",
+    "alt": "Family members and extended family members stand for a portrait.",
+    "caption": "The Garretts celebrate with family and extended family after the baptism of their 8-year-old son.",
+    "date": "September 17, 2023",
     "type": "photo",
-    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1696726569/wcnews/images/heinrich-family.jpg"
+    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1697335561/wcnews/images/garrett-family.png"
   },
   "news": [
     {
-      "text": "For October 14, the assigned families are Prestwich, Crawford, and Brett & Sumier Overcash.",
+      "text": "For October 21, the assigned families are Dodson, Huntington, and Connell.",
       "title": "Building Cleaning"
     }
   ],
   "quote": {
-    "alt": "Elder Gary B. Sabin",
-    "author": "Elder Gary B. Sabin",
-    "href": "https://www.churchofjesuschrist.org/study/general-conference/2023/10/31sabin?lang=eng",
-    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1696728492/wcnews/images/gary-b-sabin.jpg",
-    "text": "We will never regret being too kind. In God's eyes, kindness is synonymous with greatness."
+    "alt": "Tamara W. Runia",
+    "author": "Tamara W. Runia",
+    "href": "https://www.churchofjesuschrist.org/study/general-conference/2023/10/33runia?lang=eng",
+    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1697335889/wcnews/images/tamara-w-runia.png",
+    "text": "By lifting the people around us, we ascend together."
   },
   "sacramentMeeting": {
     "admins": [
@@ -42,7 +42,7 @@
         "role": "Accompanist"
       }
     ],
-    "date": "October 8, 2023",
+    "date": "October 15, 2023",
     "programItems": [
       {
         "subtype": "single",
@@ -50,7 +50,7 @@
         "value": "Welcome and Announcements"
       },
       {
-        "pair": ["Opening Hymn", "Welcome, Welcome, Sabbath Morning (#280)"],
+        "pair": ["Opening Hymn", "Dearest Children, God Is Near You (#96)"],
         "subtype": "music",
         "type": "pair"
       },
@@ -70,7 +70,7 @@
         "value": "Stake Business"
       },
       {
-        "pair": ["Sacrament Hymn", "While of These Emblems We Partake (#174)"],
+        "pair": ["Sacrament Hymn", "We'll Sing All Hail to Jesus' Name (#182)"],
         "subtype": "music",
         "type": "pair"
       },
@@ -80,12 +80,22 @@
         "value": "Administration of the Sacrament"
       },
       {
-        "subtype": "single",
-        "type": "static",
-        "value": "Bearing of Testimonies"
+        "pair": ["Speaker", "Laurie Hutchings"],
+        "subtype": "speaker",
+        "type": "pair"
       },
       {
-        "pair": ["Closing Hymn", "Come, Follow Me (#116)"],
+        "pair": ["Intermediate Hymn", "Let the Holy Spirit Guide (#143)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Speaker", "Clarence Boyd"],
+        "subtype": "speaker",
+        "type": "pair"
+      },
+      {
+        "pair": ["Closing Hymn", "The Spirit of God (#2)"],
         "subtype": "music",
         "type": "pair"
       },
