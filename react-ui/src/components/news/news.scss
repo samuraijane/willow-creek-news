@@ -4,6 +4,12 @@
   margin: 0 auto;
   max-width: 690px;
 
+  .news__list {
+    li {
+      margin: 0 0 24px 0;
+    }
+  }
+
   .news__title {
     font-size: 1.4rem;
     line-height: 1.6rem;
