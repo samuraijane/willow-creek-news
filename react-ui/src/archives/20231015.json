@@ -1,0 +1,110 @@
+{
+  "leadingImage": {
+    "alt": "Family members and extended family members stand for a portrait.",
+    "caption": "The Garretts celebrate with family and extended family after the baptism of their 8-year-old son.",
+    "date": "September 17, 2023",
+    "type": "photo",
+    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1697337056/wcnews/images/garrett-family.jpg"
+  },
+  "news": [
+    {
+      "text": "For October 21, the assigned families are Dodson, Huntington, and Connell.",
+      "title": "Building Cleaning"
+    }
+  ],
+  "quote": {
+    "alt": "Tamara W. Runia",
+    "author": "Tamara W. Runia",
+    "href": "https://www.churchofjesuschrist.org/study/general-conference/2023/10/33runia?lang=eng",
+    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1697337146/wcnews/images/tamara-w-runia.jpg",
+    "text": "By lifting the people around us, we ascend together."
+  },
+  "sacramentMeeting": {
+    "admins": [
+      {
+        "id": "98robnxy4o",
+        "name": "Charlie Crose",
+        "role": "Conducting"
+      },
+      {
+        "id": "nq6j1yt2qg",
+        "name": "Bishop Matthew Rose",
+        "role": "Presiding"
+      },
+      {
+        "id": "j3n8bfptpb",
+        "name": "Susie Carson",
+        "role": "Music Leader"
+      },
+      {
+        "id": "fq7okvbtpc",
+        "name": "Nancy Jensen",
+        "role": "Accompanist"
+      }
+    ],
+    "date": "October 15, 2023",
+    "programItems": [
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Welcome and Announcements"
+      },
+      {
+        "pair": ["Opening Hymn", "Dearest Children, God Is Near You (#96)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Invocation", "by invitation"],
+        "subtype": "prayer",
+        "type": "pair"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Ward Business"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Stake Business"
+      },
+      {
+        "pair": ["Sacrament Hymn", "We'll Sing All Hail to Jesus' Name (#182)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Administration of the Sacrament"
+      },
+      {
+        "pair": ["Speaker", "Laurie Hutchings"],
+        "subtype": "speaker",
+        "type": "pair"
+      },
+      {
+        "pair": ["Intermediate Hymn", "Let the Holy Spirit Guide (#143)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Speaker", "Clarence Boyd"],
+        "subtype": "speaker",
+        "type": "pair"
+      },
+      {
+        "pair": ["Closing Hymn", "The Spirit of God (#2)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Benediction", "by invitation"],
+        "subtype": "prayer",
+        "type": "pair"
+      }
+    ],
+    "unitName": "Willow Creek Ward"
+  }
+}
