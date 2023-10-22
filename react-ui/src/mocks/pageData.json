@@ -1,23 +1,27 @@
 {
   "leadingImage": {
-    "alt": "Family members and extended family members stand for a portrait.",
-    "caption": "The Garretts celebrate with family and extended family after the baptism of their 8-year-old son.",
-    "date": "September 17, 2023",
+    "alt": "A family gathers around a mom dressed for graduation.",
+    "caption": "Brittney and Tyson Anderson celebrate with family just after commencement for Brittney's graduation from WGU with a degree in Business Marketing.",
+    "date": "September 21, 2023",
     "type": "photo",
-    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1697337056/wcnews/images/garrett-family.jpg"
+    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1697891919/wcnews/images/anderson-family.jpg"
   },
   "news": [
     {
-      "text": "For October 21, the assigned families are Dodson, Huntington, and Connell.",
+      "text": "For October 28, the assigned families are Pharo, Taylor, and Paravato.",
       "title": "Building Cleaning"
+    },
+    {
+      "text": "Please bring a crockpot of Chili, cornbread, or chips to share. Dinner will be served in the Cultural Hall before moving outside for Trunk or Treating.",
+      "title": "Tri-Ward Trunk-or-Treat – Saturday, October 28 – 6:00 PM"
     }
   ],
   "quote": {
-    "alt": "Tamara W. Runia",
-    "author": "Tamara W. Runia",
-    "href": "https://www.churchofjesuschrist.org/study/general-conference/2023/10/33runia?lang=eng",
-    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1697337146/wcnews/images/tamara-w-runia.jpg",
-    "text": "By lifting the people around us, we ascend together."
+    "alt": "President Russell M. Nelson",
+    "author": "President Russell M. Nelson",
+    "href": "https://www.churchofjesuschrist.org/study/general-conference/2016/10/joy-and-spiritual-survival?lang=eng",
+    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1697894242/wcnews/images/russell-m-nelson.jpg",
+    "text": "The joy we feel has little to do with the circumstances of our lives and everything to do with the focus of our lives."
   },
   "sacramentMeeting": {
     "admins": [
@@ -28,7 +32,7 @@
       },
       {
         "id": "nq6j1yt2qg",
-        "name": "Bishop Matthew Rose",
+        "name": "Peter Munk",
         "role": "Presiding"
       },
       {
@@ -42,7 +46,7 @@
         "role": "Accompanist"
       }
     ],
-    "date": "October 15, 2023",
+    "date": "October 22, 2023",
     "programItems": [
       {
         "subtype": "single",
@@ -50,7 +54,7 @@
         "value": "Welcome and Announcements"
       },
       {
-        "pair": ["Opening Hymn", "Dearest Children, God Is Near You (#96)"],
+        "pair": ["Opening Hymn", "Father in Heaven (#133)"],
         "subtype": "music",
         "type": "pair"
       },
@@ -70,7 +74,7 @@
         "value": "Stake Business"
       },
       {
-        "pair": ["Sacrament Hymn", "We'll Sing All Hail to Jesus' Name (#182)"],
+        "pair": ["Sacrament Hymn", "In Remembrance of Thy Suffering (#183)"],
         "subtype": "music",
         "type": "pair"
       },
@@ -80,22 +84,12 @@
         "value": "Administration of the Sacrament"
       },
       {
-        "pair": ["Speaker", "Laurie Hutchings"],
-        "subtype": "speaker",
-        "type": "pair"
+        "subtype": "single",
+        "type": "static",
+        "value": "Administration of the Sacrament"
       },
       {
-        "pair": ["Intermediate Hymn", "Let the Holy Spirit Guide (#143)"],
-        "subtype": "music",
-        "type": "pair"
-      },
-      {
-        "pair": ["Speaker", "Clarence Boyd"],
-        "subtype": "speaker",
-        "type": "pair"
-      },
-      {
-        "pair": ["Closing Hymn", "The Spirit of God (#2)"],
+        "pair": ["Closing Hymn", "How Gentle God's Commands (#125)"],
         "subtype": "music",
         "type": "pair"
       },
