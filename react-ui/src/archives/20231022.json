@@ -1,0 +1,104 @@
+{
+  "leadingImage": {
+    "alt": "A family gathers around a mom dressed for graduation.",
+    "caption": "Brittney and Tyson Anderson celebrate with family just after commencement for Brittney's graduation from WGU with a degree in Business Marketing.",
+    "date": "September 21, 2023",
+    "type": "photo",
+    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1697891919/wcnews/images/anderson-family.jpg"
+  },
+  "news": [
+    {
+      "text": "For October 28, the assigned families are Pharo, Taylor, and Paravato.",
+      "title": "Building Cleaning"
+    },
+    {
+      "text": "Please bring a crockpot of Chili, cornbread, or chips to share. Dinner will be served in the Cultural Hall before moving outside for Trunk or Treating.",
+      "title": "Tri-Ward Trunk-or-Treat – Saturday, October 28 – 6:00 PM"
+    }
+  ],
+  "quote": {
+    "alt": "President Russell M. Nelson",
+    "author": "President Russell M. Nelson",
+    "href": "https://www.churchofjesuschrist.org/study/general-conference/2016/10/joy-and-spiritual-survival?lang=eng",
+    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1697894242/wcnews/images/russell-m-nelson.jpg",
+    "text": "The joy we feel has little to do with the circumstances of our lives and everything to do with the focus of our lives."
+  },
+  "sacramentMeeting": {
+    "admins": [
+      {
+        "id": "98robnxy4o",
+        "name": "Charlie Crose",
+        "role": "Conducting"
+      },
+      {
+        "id": "nq6j1yt2qg",
+        "name": "Peter Munk",
+        "role": "Presiding"
+      },
+      {
+        "id": "j3n8bfptpb",
+        "name": "Susie Carson",
+        "role": "Music Leader"
+      },
+      {
+        "id": "fq7okvbtpc",
+        "name": "Nancy Jensen",
+        "role": "Accompanist"
+      }
+    ],
+    "date": "October 22, 2023",
+    "programItems": [
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Welcome and Announcements"
+      },
+      {
+        "pair": ["Opening Hymn", "Father in Heaven (#133)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Invocation", "by invitation"],
+        "subtype": "prayer",
+        "type": "pair"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Ward Business"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Stake Business"
+      },
+      {
+        "pair": ["Sacrament Hymn", "In Remembrance of Thy Suffering (#183)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Administration of the Sacrament"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Primary Presentation"
+      },
+      {
+        "pair": ["Closing Hymn", "How Gentle God's Commands (#125)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Benediction", "by invitation"],
+        "subtype": "prayer",
+        "type": "pair"
+      }
+    ],
+    "unitName": "Willow Creek Ward"
+  }
+}
