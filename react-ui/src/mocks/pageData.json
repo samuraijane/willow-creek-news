@@ -1,27 +1,27 @@
 {
   "leadingImage": {
-    "alt": "A family gathers around a mom dressed for graduation.",
-    "caption": "Brittney and Tyson Anderson celebrate with family just after commencement for Brittney's graduation from WGU with a degree in Business Marketing.",
-    "date": "September 21, 2023",
+    "alt": "A couple takes a selfie in front of a temple.",
+    "caption": "Watson and Chris Nichols visit the St. George Utah Temple Open House on a recent trip.",
+    "date": "September 28, 2023",
     "type": "photo",
-    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1697891919/wcnews/images/anderson-family.jpg"
+    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1698504855/wcnews/images/nichols-family-st-george.jpg"
   },
   "news": [
     {
-      "text": "For October 28, the assigned families are Pharo, Taylor, and Paravato.",
-      "title": "Building Cleaning"
+      "text": "Assigned families are Boyd, Crose, and Horton.",
+      "title": "Building Cleaning – November 4, 2023"
     },
     {
-      "text": "Please bring a crockpot of Chili, cornbread, or chips to share. Dinner will be served in the Cultural Hall before moving outside for Trunk or Treating.",
-      "title": "Tri-Ward Trunk-or-Treat – Saturday, October 28 – 6:00 PM"
+      "text": "A recent study concluded that partipating in choir is good for your spiritual well-being. If you are male, the benefits are amplified exponentially. See Susie Carson for more details.",
+      "title": "Choir Practice – Today at 12:30PM"
     }
   ],
   "quote": {
-    "alt": "President Russell M. Nelson",
-    "author": "President Russell M. Nelson",
-    "href": "https://www.churchofjesuschrist.org/study/general-conference/2016/10/joy-and-spiritual-survival?lang=eng",
-    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1697894242/wcnews/images/russell-m-nelson.jpg",
-    "text": "The joy we feel has little to do with the circumstances of our lives and everything to do with the focus of our lives."
+    "alt": "Ardeth G. Kapp",
+    "author": "Ardeth G. Kapp",
+    "href": "https://www.deseret.com/2005/4/2/19884912/kapp-book-is-reassuring-note-boost-of-self-worth",
+    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1698505653/wcnews/images/ardeth-g-kapp.jpg",
+    "text": "We did not come to this earth to gain our worth. We brought it with us."
   },
   "sacramentMeeting": {
     "admins": [
@@ -32,7 +32,7 @@
       },
       {
         "id": "nq6j1yt2qg",
-        "name": "Peter Munk",
+        "name": "Bishop Matthew Rose",
         "role": "Presiding"
       },
       {
@@ -46,7 +46,7 @@
         "role": "Accompanist"
       }
     ],
-    "date": "October 22, 2023",
+    "date": "October 29, 2023",
     "programItems": [
       {
         "subtype": "single",
@@ -54,7 +54,7 @@
         "value": "Welcome and Announcements"
       },
       {
-        "pair": ["Opening Hymn", "Father in Heaven (#133)"],
+        "pair": ["Opening Hymn", "I Believe in Christ (#134)"],
         "subtype": "music",
         "type": "pair"
       },
@@ -74,7 +74,7 @@
         "value": "Stake Business"
       },
       {
-        "pair": ["Sacrament Hymn", "In Remembrance of Thy Suffering (#183)"],
+        "pair": ["Sacrament Hymn", "'Tis Sweet to Sing the Matchless Love (#177)"],
         "subtype": "music",
         "type": "pair"
       },
@@ -84,12 +84,27 @@
         "value": "Administration of the Sacrament"
       },
       {
-        "subtype": "single",
-        "type": "static",
-        "value": "Primary Presentation"
+        "pair": ["Speaker", "Anders Stephenson"],
+        "subtype": "speaker",
+        "type": "pair"
       },
       {
-        "pair": ["Closing Hymn", "How Gentle God's Commands (#125)"],
+        "pair": ["Speaker", "Steve Hardy"],
+        "subtype": "speaker",
+        "type": "pair"
+      },
+      {
+        "pair": ["Intermediate Hymn", "Did You Think to Pray (#140)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Speaker", "Lynn Vatter"],
+        "subtype": "speaker",
+        "type": "pair"
+      },
+      {
+        "pair": ["Closing Hymn", "I Need Thee Every Hour (#98)"],
         "subtype": "music",
         "type": "pair"
       },
