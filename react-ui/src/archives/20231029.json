@@ -1,0 +1,119 @@
+{
+  "leadingImage": {
+    "alt": "A couple takes a selfie in front of a temple.",
+    "caption": "Watson and Chris Nichols visit the St. George Utah Temple Open House on a recent trip.",
+    "date": "September 28, 2023",
+    "type": "photo",
+    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1698504855/wcnews/images/nichols-family-st-george.jpg"
+  },
+  "news": [
+    {
+      "text": "Assigned families are Boyd, Crose, and Horton.",
+      "title": "Building Cleaning – November 4, 2023"
+    },
+    {
+      "text": "A recent study concluded that partipating in choir is good for your spiritual well-being. If you are male, the benefits are amplified exponentially. See Susie Carson for more details.",
+      "title": "Choir Practice – Today at 12:30PM"
+    }
+  ],
+  "quote": {
+    "alt": "Ardeth G. Kapp",
+    "author": "Ardeth G. Kapp",
+    "href": "https://www.deseret.com/2005/4/2/19884912/kapp-book-is-reassuring-note-boost-of-self-worth",
+    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1698505653/wcnews/images/ardeth-g-kapp.jpg",
+    "text": "We did not come to this earth to gain our worth. We brought it with us."
+  },
+  "sacramentMeeting": {
+    "admins": [
+      {
+        "id": "98robnxy4o",
+        "name": "Charlie Crose",
+        "role": "Conducting"
+      },
+      {
+        "id": "nq6j1yt2qg",
+        "name": "Bishop Matthew Rose",
+        "role": "Presiding"
+      },
+      {
+        "id": "j3n8bfptpb",
+        "name": "Susie Carson",
+        "role": "Music Leader"
+      },
+      {
+        "id": "fq7okvbtpc",
+        "name": "Nancy Jensen",
+        "role": "Accompanist"
+      }
+    ],
+    "date": "October 29, 2023",
+    "programItems": [
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Welcome and Announcements"
+      },
+      {
+        "pair": ["Opening Hymn", "I Believe in Christ (#134)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Invocation", "by invitation"],
+        "subtype": "prayer",
+        "type": "pair"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Ward Business"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Stake Business"
+      },
+      {
+        "pair": ["Sacrament Hymn", "'Tis Sweet to Sing the Matchless Love (#177)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "subtype": "single",
+        "type": "static",
+        "value": "Administration of the Sacrament"
+      },
+      {
+        "pair": ["Speaker", "Anders Stephenson"],
+        "subtype": "speaker",
+        "type": "pair"
+      },
+      {
+        "pair": ["Speaker", "Steve Hardy"],
+        "subtype": "speaker",
+        "type": "pair"
+      },
+      {
+        "pair": ["Intermediate Hymn", "Did You Think to Pray (#140)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Speaker", "Lynn Vatter"],
+        "subtype": "speaker",
+        "type": "pair"
+      },
+      {
+        "pair": ["Closing Hymn", "I Need Thee Every Hour (#98)"],
+        "subtype": "music",
+        "type": "pair"
+      },
+      {
+        "pair": ["Benediction", "by invitation"],
+        "subtype": "prayer",
+        "type": "pair"
+      }
+    ],
+    "unitName": "Willow Creek Ward"
+  }
+}
