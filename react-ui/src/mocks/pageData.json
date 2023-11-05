@@ -1,33 +1,37 @@
 {
   "leadingImage": {
-    "alt": "A couple takes a selfie in front of a temple.",
-    "caption": "Watson and Chris Nichols visit the St. George Utah Temple Open House on a recent trip.",
-    "date": "September 28, 2023",
+    "alt": "A painting of the Atlanta Temple of The Church of Jesus Christ of Latter-day Saints",
+    "caption": "In \"Atlanta Georgia LDS Temple Starscape\", the Atlanta Temple shines under a starry night sky in this acrylic painting by Bekalyn Craig.",
+    "date": "June 15, 2013",
     "type": "photo",
-    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1698504855/wcnews/images/nichols-family-st-george.jpg"
+    "url": "https://res.cloudinary.com/samuraijane/image/upload/v1699185127/wcnews/images/atlanta-temple-bekalyn-craig.jpg"
   },
   "news": [
     {
-      "text": "Assigned families are Boyd, Crose, and Horton.",
-      "title": "Building Cleaning – November 4, 2023"
+      "text": "Assigned families are Day, Carson, and Suljic.",
+      "title": "Building Cleaning – November 11, 2023"
     },
     {
-      "text": "A recent study concluded that partipating in choir is good for your spiritual well-being. If you are male, the benefits are amplified exponentially. See Susie Carson for more details.",
+      "text": "In 1968, graduate students at MIT found a strong correlation between singing in a choir and never getting cut off by someone in traffic. For males, there was an even stronger correlation of always having a green light at the intersection. See Susie Carson for more details.",
       "title": "Choir Practice – Today at 12:30PM"
+    },
+    {
+      "text": "The single adults group meets for Sunday services in the Allatona Ward Building at 2205 Bascomb Carmel Road in Woodstock each Sunday from 9:00 AM to 11:00 AM. During the month, they also hold social activities. All single adults are invited to particpate. Come and see and bring a friend!",
+      "title": "For Single Adult Eyes Only"
     }
   ],
   "quote": {
-    "alt": "Ardeth G. Kapp",
-    "author": "Ardeth G. Kapp",
-    "href": "https://www.deseret.com/2005/4/2/19884912/kapp-book-is-reassuring-note-boost-of-self-worth",
-    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1698505653/wcnews/images/ardeth-g-kapp.jpg",
-    "text": "We did not come to this earth to gain our worth. We brought it with us."
+    "alt": "Elder Ciro Schmeil",
+    "author": "Elder Ciro Schmeil",
+    "href": "https://www.churchofjesuschrist.org/study/general-conference/2021/10/23schmeil?lang=eng",
+    "imageUrl": "https://res.cloudinary.com/samuraijane/image/upload/v1699184852/wcnews/images/ciro-schmeil.jpg",
+    "text": "To become a better follower of the Savior Jesus Christ is a lifelong journey, and we are all in different stages, moving at a different pace."
   },
   "sacramentMeeting": {
     "admins": [
       {
         "id": "98robnxy4o",
-        "name": "Charlie Crose",
+        "name": "Bishop Matthew Rose",
         "role": "Conducting"
       },
       {
@@ -46,7 +50,7 @@
         "role": "Accompanist"
       }
     ],
-    "date": "October 29, 2023",
+    "date": "November 5, 2023",
     "programItems": [
       {
         "subtype": "single",
@@ -54,7 +58,7 @@
         "value": "Welcome and Announcements"
       },
       {
-        "pair": ["Opening Hymn", "I Believe in Christ (#134)"],
+        "pair": ["Opening Hymn", "Where Can I Turn for Peace? (#129)"],
         "subtype": "music",
         "type": "pair"
       },
@@ -74,7 +78,7 @@
         "value": "Stake Business"
       },
       {
-        "pair": ["Sacrament Hymn", "'Tis Sweet to Sing the Matchless Love (#177)"],
+        "pair": ["Sacrament Hymn", "Thy Will, O Lord, Be Done (#188)"],
         "subtype": "music",
         "type": "pair"
       },
@@ -84,27 +88,12 @@
         "value": "Administration of the Sacrament"
       },
       {
-        "pair": ["Speaker", "Anders Stephenson"],
-        "subtype": "speaker",
-        "type": "pair"
+        "subtype": "single",
+        "type": "static",
+        "value": "Bearing of Testimonies"
       },
       {
-        "pair": ["Speaker", "Steve Hardy"],
-        "subtype": "speaker",
-        "type": "pair"
-      },
-      {
-        "pair": ["Intermediate Hymn", "Did You Think to Pray (#140)"],
-        "subtype": "music",
-        "type": "pair"
-      },
-      {
-        "pair": ["Speaker", "Lynn Vatter"],
-        "subtype": "speaker",
-        "type": "pair"
-      },
-      {
-        "pair": ["Closing Hymn", "I Need Thee Every Hour (#98)"],
+        "pair": ["Closing Hymn", "I Know That My Redeemer Lives (#136)"],
         "subtype": "music",
         "type": "pair"
       },
